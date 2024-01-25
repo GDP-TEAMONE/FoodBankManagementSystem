@@ -1,5 +1,5 @@
 - PROBLEM STATEMENT:
-To create a effective food bank management system that addresses issues in our current system and hindering our ability to efficiently serve those in need and optimize our impact.We lack comprehensive tools to address below key operational areas.
+To create an effective food bank management system that addresses issues in our current system and hinders our ability to serve those in need and optimize our impact efficiently.We lack comprehensive tools to address below key operational areas.
 
 * Inventory management: Difficulty tracking food donations, expiration dates, and nutritional information, leading to waste or insufficient supply.
 * Client needs: Lack of data on client demographics and dietary restrictions, making it hard to personalize food distribution.
@@ -12,7 +12,7 @@ To create a effective food bank management system that addresses issues in our c
 * Cumbersome ordering: Manual order processing is slow and error-prone, leading to delays and inaccurate inventory levels.
 * Data blind spots: Lack of robust reporting and analytics limits our ability to track progress, measure impact, and make data-driven decisions.
 * Limited reach: Lack of mobile accessibility excludes clients without internet access, restricting their ability to register and connect with resources.
-* Security concerns: Data security and compliance with regulations are at risk due to outdated systems and manual processes.
+* Security concerns: Data security and regulation compliance are at risk due to outdated systems and manual processes.
 * Growth constraints: Our current system lacks scalability, posing challenges as our client base and food donations increase.
 * Vulnerability to disruptions: Lack of data backup and recovery procedures leaves us vulnerable to system failures and data loss.
 
@@ -20,6 +20,15 @@ To create a effective food bank management system that addresses issues in our c
 Analyzing Inventory Management module centralized database and food tracking
 
 Things to implement:
-* We are planning to use MySql and Mongo Db for the work flow and in creation of table structures.
+* We are planning to use MySql and Mongo DB for the workflow and in the creation of table structures.
 * Design and creation of Entity relationship models for different departments and food tracking.
 * Categorization based on the food types for donor and recipient so that it gets easy to map the things and work effectively.
+
+Analyzing Volunteer Management: module and Scheduling tools for recruiting, assigning, and tracking volunteer activities.
+
+Things to implement:
+* For volunteer management, we need to schedule the date and time, to look for volunteers. Also, once this is done, we can check for the available volunteers and assign them the work, by assigning them.
+* Streamline volunteer recruitment and onboarding: Make it easier for people to sign up and get involved, reducing barriers to participation.
+* Optimize volunteer scheduling and task assignments: Match volunteers' skills and preferences with tasks that need doing, maximizing efficiency and satisfaction.
+* Improve communication and engagement: Keep volunteers informed, provide feedback, and recognize their contributions, fostering a sense of community and motivation.
+* Track volunteer activity and impact: Measure the value of volunteer work and use data to improve program planning and resource allocation.
