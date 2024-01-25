@@ -15,3 +15,11 @@ To create a effective food bank management system that addresses issues in our c
 * Security concerns: Data security and compliance with regulations are at risk due to outdated systems and manual processes.
 * Growth constraints: Our current system lacks scalability, posing challenges as our client base and food donations increase.
 * Vulnerability to disruptions: Lack of data backup and recovery procedures leaves us vulnerable to system failures and data loss.
+
+
+Analyzing Inventory Management module centralized database and food tracking
+
+Things to implement:
+* We are planning to use MySql and Mongo Db for the work flow and in creation of table structures.
+* Design and creation of Entity relationship models for different departments and food tracking.
+* Categorization based on the food types for donor and recipient so that it gets easy to map the things and work effectively.
