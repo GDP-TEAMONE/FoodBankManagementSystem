@@ -151,3 +151,18 @@ Gathering feedback from your key stakeholders – donors, recipients, and volunt
 - Close the feedback loop: Inform users about how their feedback has been used and the actions taken in response, demonstrating your commitment to their input.
 
 ************************************************************************************************************************************************************
+Backup and Recovery:
+Ensuring data integrity and accessibility is crucial for any food bank management system. Robust backup and recovery procedures are essential to safeguard against data loss, system failures, and cyberattacks. Let's delve into the two key aspects you mentioned:
+
+1) Regular Automated Backups of the Database:
+- Frequency: Establish a schedule for automated backups based on your data sensitivity and acceptable downtime. Daily backups are recommended for critical data, while less frequent backups might be sufficient for less sensitive information.
+- Location: Store backups on at least two separate locations to prevent data loss in case of hardware failure or a disaster at the primary location. Cloud storage is a reliable option, offering off-site redundancy and accessibility.
+- Data backup types: Consider different backup types like full backups (entire database), incremental backups (changes since the last full backup), and differential backups (changes since the last backup). Choose the most appropriate type based on your needs and efficiency considerations.
+- Testing and verification: Schedule regular testing of your backup and recovery process to ensure data integrity and restore functionality in case of an actual incident.
+
+2) Procedures for Data Recovery in Case of System Failures:
+- Disaster recovery plan: Develop a comprehensive disaster recovery plan outlining steps to take in case of hardware failures, cyberattacks, natural disasters, or any other emergency. The plan should define roles and responsibilities, communication protocols, data recovery procedures, and system restoration steps.
+- Recovery time objective (RTO): Determine the acceptable amount of downtime your system can tolerate before data needs to be restored. This will inform your backup frequency and recovery approach.
+- Recovery point objective (RPO): Define the maximum acceptable data loss you can tolerate in case of an incident. This will influence your backup type and retention policy.
+- Rollback procedures: Implement procedures for rolling back to previous versions of the data in case of errors or data corruption.
+ -Data encryption: Ensure backups are encrypted in transit and at rest to protect sensitive information even if they are compromised.
