@@ -26,4 +26,26 @@ Account settings (password change, preferences)
 Implement strong password policies and data encryption.
 Limit access based on user type and permissions.
 Regularly review and update security measures.
+---------------------------------------------------------------------------------------------------------------------------
+Allergen and Nutritional Information 
+
+1) Storing and Displaying Information:
+* Database: Implement a comprehensive database to store detailed allergen and nutritional information for each food item.
+Standardized Format: Utilize standardized formats like GPC Allergen Labeling or USDA National Nutrient Database for Standards Reference for consistency and accuracy.
+
+* User-Friendly Interface: Design a user-friendly interface for staff to easily enter, edit, and access information.
+Item-Specific Details: Capture specific details like ingredients, potential cross-contamination risks, presence of major allergens (Big 8: Milk, Eggs, Peanuts, Tree Nuts, Soy, Wheat, Fish, Shellfish).
+
+* Nutritional Profile: Include macronutrients (calories, fat, carbohydrates, protein), micronutrients (vitamins, minerals), and any relevant dietary information (e.g., vegan, gluten-free).
+Searchable Database: Enable searching and filtering by allergens, ingredients, nutritional content, dietary restrictions, etc.
+
+2. Alerts for Allergen Concerns:
+* Real-time Alerts: Develop an alert system that flags potential allergen concerns during distribution based on recipient profiles.
+* Recipient Profiles: Allow recipients to input their allergen restrictions and preferences when registering or receiving assistance.
+* Matching System: Create an automated system that matches recipient profiles with food items, highlighting potential allergen conflicts.
+* Visual Cues: Utilize color-coding, symbols, or other visual cues to clearly communicate allergen information on food packaging or distribution lists.
+* Staff Training: Train staff on identifying and managing allergen risks, using the alert system effectively, and communicating sensitively with recipients
+
+
+
 
