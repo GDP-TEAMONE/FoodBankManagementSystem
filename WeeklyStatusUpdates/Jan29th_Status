@@ -34,7 +34,7 @@ Allergen and Nutritional Information
 Standardized Format: Utilize standardized formats like GPC Allergen Labeling or USDA National Nutrient Database for Standards Reference for consistency and accuracy.
 
 * User-Friendly Interface: Design a user-friendly interface for staff to easily enter, edit, and access information.
-Item-Specific Details: Capture specific details like ingredients, potential cross-contamination risks, presence of major allergens (Big 8: Milk, Eggs, Peanuts, Tree Nuts, Soy, Wheat, Fish, Shellfish).
+Item-Specific Details: Capture specific details like ingredients, potential cross-contamination risks, and presence of major allergens (Big 8: Milk, Eggs, Peanuts, Tree Nuts, Soy, Wheat, Fish, Shellfish).
 
 * Nutritional Profile: Include macronutrients (calories, fat, carbohydrates, protein), micronutrients (vitamins, minerals), and any relevant dietary information (e.g., vegan, gluten-free).
 Searchable Database: Enable searching and filtering by allergens, ingredients, nutritional content, dietary restrictions, etc.
@@ -65,4 +65,19 @@ Integrate with accounting software for seamless data transfer and financial mana
 Partner with relevant government agencies to establish secure data access protocols.
 Develop a system for real-time or batch verification of recipient eligibility using government databases.
 Ensure data privacy and security through encryption and limited access controls.
-Offer alternative verification methods for recipients without access to government
+Offer alternative verification methods for recipients without government access.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Tracking Expiry Dates
+
+1. Monitoring and Flagging:
+* Item Entry: Require entry of expiry dates during food donation or inventory addition.
+* Inventory Management: Develop a system to track expiry dates for all food items in inventory.
+* Color Coding: Implement a color-coded system to visually identify items nearing or exceeding expiry (e.g., green for fresh, yellow for approaching, red for expired).
+* Alerts and Notifications: Generate automated alerts and notifications for items nearing expiry (e.g., emails, pop-up messages).
+* Customizable Filters: Allow filtering inventory based on expiry date range for targeted prioritization.
+
+2. Automatic Removal from Inventory:
+* Pre-set Threshold: Define a threshold for automatic removal (e.g., 2 days before expiry).
+* Confirmation Mechanism: Implement a confirmation step before automatic removal to prevent accidental deletion.
+* Reporting and Logs: Maintain detailed logs of removed items, including date, reason, and quantity.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
