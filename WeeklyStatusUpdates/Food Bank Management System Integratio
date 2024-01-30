@@ -19,3 +19,12 @@ Integrated Module Functionality:
 Use inventory data to track donated items and update stock levels automatically.
 Generate reports on donation trends, types, and sources for informed decision-making.
 Integrate with online payment gateways for secure donation processing.
+
+3) Inventory Management: Connect expiry date tracking with recipient profiles for personalized allergen and dietary restrictions.
+Allow volunteers to assist with inventory management tasks like sorting and organizing food items.
+Generate reports on stock levels, expiration dates, and nutritional content for strategic planning.
+
+4) Volunteer Management: Allow volunteers to register and update their profiles with availability and preferred tasks.
+Match volunteer skills with specific needs based on inventory management, distribution, or administrative tasks.
+Track volunteer hours and provide recognition systems to boost engagement.
+
