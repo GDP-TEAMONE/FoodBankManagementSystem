@@ -81,3 +81,13 @@ Tracking Expiry Dates
 * Confirmation Mechanism: Implement a confirmation step before automatic removal to prevent accidental deletion.
 * Reporting and Logs: Maintain detailed logs of removed items, including date, reason, and quantity.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3) Communication Module:
+* Send targeted notifications: Inform recipients about upcoming distributions, order confirmations, and important updates.
+* Facilitate two-way communication: Enable feedback from recipients and volunteers through surveys, chat functionalities, or discussion forums.
+* Promote volunteer engagement: Send reminders, share updates, and recognize volunteer contributions to boost engagement.
+
+4) Mobile Accessibility:
+* Develop a mobile app: Offer a user-friendly mobile app for volunteers and recipients to access features on the go.
+* Optimize for different devices: Ensure the app functions smoothly on various smartphones and tablets.
+* Offer essential functionalities: Prioritize key features like order management, scheduling, communication, and feedback within the mobile app.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
