@@ -1,0 +1,12 @@
+Integration Design for Food bank management system:
+Here, we are going to talk about the design part for the database that we are using for this project. Manily we will focus on the
+design part for each departments like donation management, volunteer management etc.
+
+Designing the database tables for user registration and profiles involves creating a structured schema to efficiently manage 
+information related to various user roles such as food donors, recipients, volunteers, and administrators. The goal is to 
+capture essential user account details and create comprehensive user profiles with personal and contact information. Here are 
+key considerations for designing the tables:
+
+
+
+
