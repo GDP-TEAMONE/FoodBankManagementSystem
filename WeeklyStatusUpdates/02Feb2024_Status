@@ -28,3 +28,25 @@ Foreign Key in "UserProfile" Table:
 Using the "UserID" column as a foreign key, the "UserProfile" table is constructed.
 By referencing the "User" table's primary key, it associates user accounts with their respective profiles.
 
+Attributes and Data Types:
+Data types for attributes should be selected according to the nature of the information (For example: string names, emails, and dates).
+Each attribute should be atomic and represent a single piece of data
+
+Normalization:
+Ensure that the tables are in the optimal normalized form by applying normalization techniques.
+
+Constraints:
+Maintain data integrity by implementing constraints such as unique constraints, not-null constraints, and check constraints.
+Predefined user roles should be adhered to for UserType.
+
+Unique constraints:
+Unique constraints should be implemented on columns whose uniqueness is essential, such as the "UserID" column in the "User" table.
+The database will not contain duplicate user IDs as each user will have a distinct identifier.
+
+Not-Null Constraints:
+Columns that cannot contain NULL entries are forced to have not-null constraints.
+To ensure that essential information is always available, fields such as "Username" and "Password" in the "User" table should have no null constraints.
+
+Check Constraints:
+Utilize check constraints to enforce specific conditions on data values.
+As an example, it may be beneficial to apply a constraint to the "UserType" column if it represents distinct roles for different types of users.
