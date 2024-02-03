@@ -15,7 +15,7 @@ Design a "UserProfile" table linked to the "User" table via the UserID as a fore
 Include attributes such as ProfileID, FirstName, LastName, Email, ContactNumber, and Address in the "UserProfile" table.
 This one-to-one relationship ensures that each user has a corresponding profile.
 
-Primary and Foreign Keys:
+3)Primary and Foreign Keys:
 The UserID should be established as the primary key in the "User" table.
 UserID can be used as a foreign key in "UserProfile" to link user accounts with user profiles.
 
@@ -28,25 +28,31 @@ Foreign Key in "UserProfile" Table:
 Using the "UserID" column as a foreign key, the "UserProfile" table is constructed.
 By referencing the "User" table's primary key, it associates user accounts with their respective profiles.
 
-Attributes and Data Types:
+4)Attributes and Data Types:
 Data types for attributes should be selected according to the nature of the information (For example: string names, emails, and dates).
 Each attribute should be atomic and represent a single piece of data
 
-Normalization:
+5)Normalization:
 Ensure that the tables are in the optimal normalized form by applying normalization techniques.
 
-Constraints:
+6)Constraints:
 Maintain data integrity by implementing constraints such as unique constraints, not-null constraints, and check constraints.
 Predefined user roles should be adhered to for UserType.
-
-Unique constraints:
+a. Unique constraints:
 Unique constraints should be implemented on columns whose uniqueness is essential, such as the "UserID" column in the "User" table.
 The database will not contain duplicate user IDs as each user will have a distinct identifier.
-
-Not-Null Constraints:
+b. Not-Null Constraints:
 Columns that cannot contain NULL entries are forced to have not-null constraints.
 To ensure that essential information is always available, fields such as "Username" and "Password" in the "User" table should have no null constraints.
-
-Check Constraints:
+c. Check Constraints:
 Utilize check constraints to enforce specific conditions on data values.
 As an example, it may be beneficial to apply a constraint to the "UserType" column if it represents distinct roles for different types of users.
+
+7)Documentation: To improve comprehension and upkeep in the future, record the goals of each table, the connections between them, and any limitations that were put in place.
+
+8)Scalability:
+Take possible expansion in the number of users and their profiles into consideration while designing tables, keeping scalability in mind.
+Aim for scalability when designing tables by avoiding over-normalization, which might result in intricate joins and possible performance problems as the dataset gets larger.
+Select the right data types and column sizes to handle growing data volumes in anticipation of the anticipated increase in the number of users and their profiles.
+Partitioning big tables into more manageable and easily retrievable portions helps improve query performance.
+
