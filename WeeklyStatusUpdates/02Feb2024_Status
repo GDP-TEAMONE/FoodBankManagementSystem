@@ -14,3 +14,17 @@ Utilize UserType to distinguish between different user roles.
 Design a "UserProfile" table linked to the "User" table via the UserID as a foreign key.
 Include attributes such as ProfileID, FirstName, LastName, Email, ContactNumber, and Address in the "UserProfile" table.
 This one-to-one relationship ensures that each user has a corresponding profile.
+
+Primary and Foreign Keys:
+The UserID should be established as the primary key in the "User" table.
+UserID can be used as a foreign key in "UserProfile" to link user accounts with user profiles.
+
+Primary Key in "User" Table:
+The "User" table has a primary key column named "UserID.".
+A primary key ensures that each record in the "User" table has a unique identifier.
+As a result, data integrity is maintained and information can be retrieved efficiently.
+
+Foreign Key in "UserProfile" Table:
+Using the "UserID" column as a foreign key, the "UserProfile" table is constructed.
+By referencing the "User" table's primary key, it associates user accounts with their respective profiles.
+
