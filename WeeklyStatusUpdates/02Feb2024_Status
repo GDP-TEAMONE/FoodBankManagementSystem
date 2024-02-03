@@ -6,3 +6,11 @@ Designing the database tables for user registration and profiles involves creati
 information related to various user roles such as food donors, recipients, volunteers, and administrators. The goal is to 
 capture essential user account details and create comprehensive user profiles with personal and contact information. Here are 
 key considerations for designing the tables:
+1) User Table:
+Create a central "User" table to store common attributes like UserID, UserType (donor, recipient, volunteer, administrator), Username, Password, and RegistrationDate.
+Utilize UserType to distinguish between different user roles.
+
+2) UserProfile Table:
+Design a "UserProfile" table linked to the "User" table via the UserID as a foreign key.
+Include attributes such as ProfileID, FirstName, LastName, Email, ContactNumber, and Address in the "UserProfile" table.
+This one-to-one relationship ensures that each user has a corresponding profile.
