@@ -14,3 +14,66 @@ Utilize UserType to distinguish between different user roles.
 Design a "UserProfile" table linked to the "User" table via the UserID as a foreign key.
 Include attributes such as ProfileID, FirstName, LastName, Email, ContactNumber, and Address in the "UserProfile" table.
 This one-to-one relationship ensures that each user has a corresponding profile.
+
+3)Primary and Foreign Keys:
+The UserID should be established as the primary key in the "User" table.
+UserID can be used as a foreign key in "UserProfile" to link user accounts with user profiles.
+
+Primary Key in "User" Table:
+The "User" table has a primary key column named "UserID.".
+A primary key ensures that each record in the "User" table has a unique identifier.
+As a result, data integrity is maintained and information can be retrieved efficiently.
+
+Foreign Key in "UserProfile" Table:
+Using the "UserID" column as a foreign key, the "UserProfile" table is constructed.
+By referencing the "User" table's primary key, it associates user accounts with their respective profiles.
+
+4)Attributes and Data Types:
+Data types for attributes should be selected according to the nature of the information (For example: string names, emails, and dates).
+Each attribute should be atomic and represent a single piece of data
+
+5)Normalization:
+Ensure that the tables are in the optimal normalized form by applying normalization techniques.
+
+6)Constraints:
+Maintain data integrity by implementing constraints such as unique constraints, not-null constraints, and check constraints.
+Predefined user roles should be adhered to for UserType.
+a. Unique constraints:
+Unique constraints should be implemented on columns whose uniqueness is essential, such as the "UserID" column in the "User" table.
+The database will not contain duplicate user IDs as each user will have a distinct identifier.
+b. Not-Null Constraints:
+Columns that cannot contain NULL entries are forced to have not-null constraints.
+To ensure that essential information is always available, fields such as "Username" and "Password" in the "User" table should have no null constraints.
+c. Check Constraints:
+Utilize check constraints to enforce specific conditions on data values.
+As an example, it may be beneficial to apply a constraint to the "UserType" column if it represents distinct roles for different types of users.
+
+7)Documentation: To improve comprehension and upkeep in the future, record the goals of each table, the connections between them, and any limitations that were put in place.
+
+8)Scalability:
+Take possible expansion in the number of users and their profiles into consideration while designing tables, keeping scalability in mind.
+Aim for scalability when designing tables by avoiding over-normalization, which might result in intricate joins and possible performance problems as the dataset gets larger.
+Select the right data types and column sizes to handle growing data volumes in anticipation of the anticipated increase in the number of users and their profiles.
+Partitioning big tables into more manageable and easily retrievable portions helps improve query performance.
+
+
+9. Indexes: 
+To improve the efficiency of search and retrieval, think about indexing frequently accessed columns.
+Indexes for Performance Optimization: To speed up search and retrieval processes, identify the columns in tables that are frequently searched and think about indexing these columns.
+Although they can greatly speed up SELECT queries, indexes should only be used sparingly because they may negatively affect the speed of data modification operations (INSERT, UPDATE, and DELETE).
+
+10. Security: 
+To safeguard user data, put in place appropriate security measures like hashing passwords.
+Password Security: To securely safeguard user passwords, employ salting in conjunction with powerful, one-way hashing algorithms like bcrypt.
+Procedures for Encryption: For sensitive data, use industry-standard encryption that is supported by secure communication protocols to ensure safe transmission and storage.
+User authentication: Put strong authentication systems in place, such as multi-factor authentication, to confirm.
+
+
+The developed database guarantees a high degree of safety for user registration and profile data by including strong security mechanisms like password hashing, encryption, and authentication. 
+Optimized table designs and indexing algorithms are among the scalability factors that set the system up to effectively manage a growing user base. 
+A secure access management system is made possible for administrators, volunteers, food donors, and beneficiaries via role-based access restriction and data masking. 
+Ensuring data integrity by protecting against typical online vulnerabilities with stringent input validation. 
+Audit trails facilitate timely reactions to security issues by recording crucial database activities, hence augmenting transparency. 
+Frequent security audits and upgrades strengthen the system's defenses against new threats. 
+In addition to satisfying functional needs, the database's careful architecture gives security and scalability top priority. This methodology guarantees a smooth and safe.
+
