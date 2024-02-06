@@ -145,3 +145,18 @@ By following these considerations, the database tables can effectively store and
 Create a "FoodItem" table to store information about each food item.
 Include attributes such as ItemID (Primary Key), ItemName, Category, Label, Quantity, ExpiryDate, and StockAlertThreshold.
 Use ItemID as the primary key for unique identification.
+
+2)Inventory Table:
+Design an "Inventory" table for centralized tracking of food inventory.
+Include attributes like InventoryID (Primary Key), ItemID (Foreign Key), CurrentStock, LastUpdatedTime, and Location.
+Establish a one-to-one relationship between "FoodItem" and "Inventory" for each food item to have a corresponding inventory record.
+
+3)Alerts Table:
+Introduce an "Alerts" table to store information about low stock and upcoming expirations.
+Include attributes like AlertID (Primary Key), InventoryID (Foreign Key), AlertType, and AlertTimestamp.
+Establish relationships between "Inventory" and "Alerts" to associate alerts with specific food items.
+
+4)Primary and Foreign Keys:
+Use ItemID as the primary key in the "FoodItem" table.
+Utilize InventoryID as the primary key in the "Inventory" table, with ItemID as a foreign key linking to the "FoodItem" table.
+AlertID serves as the primary key in the "Alerts" table, linked to InventoryID as a foreign key.
