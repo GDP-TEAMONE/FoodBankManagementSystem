@@ -77,3 +77,17 @@ Audit trails facilitate timely reactions to security issues by recording crucial
 Frequent security audits and upgrades strengthen the system's defenses against new threats. 
 In addition to satisfying functional needs, the database's careful architecture gives security and scalability top priority. This methodology guarantees a smooth and safe.
 
+** Donation management:
+Designing the database tables for donation management in a food bank involves creating a structured schema to efficiently 
+handle donor registration, donation details, and automatic generation of donation receipts. Here are key considerations for 
+designing the tables:
+
+1)Donor Table:
+Create a "Donor" table to store donor information.
+Include attributes such as DonorID, FirstName, LastName, Email, ContactNumber, and Address.
+Utilize DonorID as the primary key for unique donor identification.
+
+2)Donation Table:
+Design a "Donation" table to record donation entries.
+Include attributes like DonationID, DonorID (Foreign Key), DonationDate, Quantity, Type, and ExpirationDate.
+Establish a one-to-many relationship between "Donor" and "Donation" to associate multiple donations with a single donor.
