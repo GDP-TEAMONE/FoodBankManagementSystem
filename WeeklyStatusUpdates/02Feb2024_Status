@@ -91,3 +91,17 @@ Utilize DonorID as the primary key for unique donor identification.
 Design a "Donation" table to record donation entries.
 Include attributes like DonationID, DonorID (Foreign Key), DonationDate, Quantity, Type, and ExpirationDate.
 Establish a one-to-many relationship between "Donor" and "Donation" to associate multiple donations with a single donor.
+
+3)DonationReceipt Table:
+Introduce a "DonationReceipt" table to automatically generate and store donation receipts.
+Include attributes like ReceiptID, DonationID (Foreign Key), IssueDate, and Amount (if applicable).
+Establish a one-to-one relationship between "Donation" and "DonationReceipt" for each donation to have a corresponding receipt.
+
+4)Primary and Foreign Keys:
+Use DonorID as the primary key in the "Donor" table.
+Utilize DonationID as the primary key in the "Donation" table, with DonorID as a foreign key linking to the "Donor" table.
+ReceiptID serves as the primary key in the "DonationReceipt" table, linked to DonationID as a foreign key.
+
+5)Attributes and Data Types:
+Choose appropriate data types for attributes based on the nature of the information (e.g., strings for names, dates for donation and expiration, numeric for quantities).
+Ensure that attributes are atomic and represent a single piece of information.
