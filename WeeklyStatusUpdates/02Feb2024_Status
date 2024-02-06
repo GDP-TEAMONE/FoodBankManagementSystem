@@ -160,3 +160,11 @@ Establish relationships between "Inventory" and "Alerts" to associate alerts wit
 Use ItemID as the primary key in the "FoodItem" table.
 Utilize InventoryID as the primary key in the "Inventory" table, with ItemID as a foreign key linking to the "FoodItem" table.
 AlertID serves as the primary key in the "Alerts" table, linked to InventoryID as a foreign key.
+
+By integrating robust security measures such as password hashing, encryption, and authentication, the designed database ensures a high level of protection for user registration and profile information.
+Scalability considerations, including optimized table designs and indexing strategies, prepare the system to efficiently handle an expanding user base.
+Role-based access control and data masking contribute to a secure access management system for administrators, volunteers, food donors, and recipients. Rigorous input validation safeguards against common web vulnerabilities, ensuring data integrity.
+Audit trails enhance transparency by logging critical database activities, aiding prompt responses to security incidents.
+Regular security audits and updates fortify the system against evolving threats. The database's meticulous design not only meets functional requirements but also prioritizes security and scalability.
+This approach ensures a seamless and secure user experience for various stakeholders. Trust and reliability are fostered among food donors, recipients, volunteers, and administrators.
+The database becomes a foundational element in facilitating a secure and efficient ecosystem for user interactions.
