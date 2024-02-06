@@ -105,3 +105,30 @@ ReceiptID serves as the primary key in the "DonationReceipt" table, linked to Do
 5)Attributes and Data Types:
 Choose appropriate data types for attributes based on the nature of the information (e.g., strings for names, dates for donation and expiration, numeric for quantities).
 Ensure that attributes are atomic and represent a single piece of information.
+
+6)Normalization:
+Apply normalization techniques to minimize redundancy and dependency, ensuring that the tables are in an optimal normalized form.
+Normalization is an iterative process, where we analyze the tables, identify dependencies, and decompose them as needed to minimize redundancy and optimize performance. Here we apply normalization so that our donation tables have no duplicates, flexible and follow data integrity.
+
+7)Constraints:
+Implement constraints like unique constraints, not-null constraints, and check constraints to maintain data integrity.
+Enforce relationships between tables to ensure consistency.
+
+8)Documentation:
+We need to document the purpose of each table, relationships between tables, and any constraints applied to enhance future understanding and maintenance.
+It helps to summarize the table and for the 
+
+Columns:
+
+donor_id (INT FOREIGN KEY REFERENCES Donors(donor_id))
+donation_date (DATE)
+type (ENUM('Food', 'Monetary', 'Other'))
+quantity (INT)
+description (VARCHAR(255))
+expiry_date (DATE) (NULLABLE)
+unit_of_measurement (VARCHAR(50)) (e.g., pounds, gallons, boxes)
+nutritional_info (JSON) (optional, for food donations)
+allergen_info (JSON) (optional, for food donations)
+donation_status (ENUM('Received', 'Processed', 'Distributed', 'Rejected'))
+notes (TEXT)
+
