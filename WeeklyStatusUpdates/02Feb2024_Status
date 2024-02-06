@@ -132,3 +132,16 @@ allergen_info (JSON) (optional, for food donations)
 donation_status (ENUM('Received', 'Processed', 'Distributed', 'Rejected'))
 notes (TEXT)
 
+9)Scalability:
+Scalability for database tables is crucial for ensuring our food bank management system can handle increasing amounts of data without performance degradation.
+Design tables with scalability in mind, anticipating potential growth in the number of donors and donations.
+
+10)Indexes:
+Consider creating indexes on frequently queried columns to enhance search and retrieval performance.
+By following these considerations, the database tables can effectively store and manage donation information, donor profiles, and automatically generate donation receipts, ensuring a well-organized and scalable system for donation management in a food bank
+
+** Inventory management:
+1)FoodItem Table:
+Create a "FoodItem" table to store information about each food item.
+Include attributes such as ItemID (Primary Key), ItemName, Category, Label, Quantity, ExpiryDate, and StockAlertThreshold.
+Use ItemID as the primary key for unique identification.
