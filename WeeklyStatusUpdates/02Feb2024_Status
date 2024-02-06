@@ -168,3 +168,26 @@ Audit trails enhance transparency by logging critical database activities, aidin
 Regular security audits and updates fortify the system against evolving threats. The database's meticulous design not only meets functional requirements but also prioritizes security and scalability.
 This approach ensures a seamless and secure user experience for various stakeholders. Trust and reliability are fostered among food donors, recipients, volunteers, and administrators.
 The database becomes a foundational element in facilitating a secure and efficient ecosystem for user interactions.
+
+Columns:
+name (VARCHAR(255))
+description (TEXT)
+category (ENUM('Fruits & Vegetables', 'Canned Goods', 'Dairy', 'Grains', 'Protein', 'Other'))
+sub_category (VARCHAR(255)) (e.g., Apples, Tomatoes, Tuna, Beans)
+unit_of_measurement (VARCHAR(50)) (e.g., pounds, gallons, boxes)
+quantity (INT)
+reorder_point (INT)
+lead_time (INT) (days)
+supplier_id (INT FOREIGN KEY REFERENCES Suppliers(supplier_id)) (optional)
+donation_source (ENUM('Individual Donation', 'Food Drive', 'Wholesale Purchase')) (optional)
+expiry_date (DATE) (NULLABLE)
+nutritional_info (JSON) (optional)
+allergen_info (JSON) (optional)
+storage_location (VARCHAR(255))
+status (ENUM('Available', 'Reserved', 'Distributed', 'Expired', 'Damaged'))
+
+Additionally, we can store below items in our database table.
+Nutritional data standards: Use standardized formats for nutritional information (e.g., USDA National Nutrient Database) for consistency and analysis.
+Allergen compliance: Consider legal requirements and best practices for managing allergen information.
+Integration with other systems: Link to Donations table for donation tracking and to Distribution table for tracking outgoing inventory.
+Barcode support: Add a barcode field if you use barcode scanners for tracking and inventory management
