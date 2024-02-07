@@ -10,6 +10,26 @@ key considerations for designing the tables:
 Create a central "User" table to store common attributes like UserID, UserType (donor, recipient, volunteer, administrator), Username, Password, and RegistrationDate.
 Utilize UserType to distinguish between different user roles.
 
+Designing for a database table for user registration and profiles in your food bank management system, accommodating various user types and relevant details:
+Table Name: Users
+Primary Key: user_id (INT AUTO_INCREMENT)
+Columns:
+user_type (ENUM('donor', 'recipient', 'volunteer', 'admin'))
+first_name (VARCHAR(255))
+last_name (VARCHAR(255))
+email (VARCHAR(255) UNIQUE)
+username (VARCHAR(255) UNIQUE) (optional, for login purposes)
+password (VARCHAR(255)) (hashed and secured)
+phone_number (VARCHAR(20))
+address (TEXT)
+city (VARCHAR(255))
+state (VARCHAR(255))
+postal_code (VARCHAR(10))
+date_of_birth (DATE) (optional)
+notes (TEXT) (optional, for admin use)
+created_at (DATETIME DEFAULT CURRENT_TIMESTAMP)
+updated_at (DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP)
+
 2) UserProfile Table:
 Design a "UserProfile" table linked to the "User" table via the UserID as a foreign key.
 Include attributes such as ProfileID, FirstName, LastName, Email, ContactNumber, and Address in the "UserProfile" table.
