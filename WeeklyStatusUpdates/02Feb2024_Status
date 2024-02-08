@@ -259,3 +259,15 @@ background_check_status (ENUM('Pending', 'Completed', 'Not Required'))
 notes (TEXT) (optional, for admin use)
 created_at (DATETIME DEFAULT CURRENT_TIMESTAMP)
 updated_at (DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP)
+
+Additionally, we can consider the items below as well, when we are creating a database table for the volunteer management table.
+Volunteer Activities: Track details of volunteer assignments, hours worked, tasks performed, and feedback.
+Volunteer Skills: Link specific skills to individual volunteers with detailed descriptions and proficiency levels.
+Volunteer Interests: Link specific interests to individual volunteers for better matching with opportunities.
+
+Benefits of this design:
+Comprehensive profiles: Captures essential volunteer information and preferences.
+Skill matching: Facilitates efficient volunteer assignments based on skills and availability.
+Detailed tracking: Records volunteer activities, hours, and feedback.
+Flexibility: Adaptable to various volunteer roles and needs.
+Reporting: Enables analysis of volunteer engagement and program effectiveness.
