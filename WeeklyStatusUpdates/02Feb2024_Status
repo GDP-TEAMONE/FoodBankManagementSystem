@@ -271,3 +271,18 @@ Skill matching: Facilitates efficient volunteer assignments based on skills and 
 Detailed tracking: Records volunteer activities, hours, and feedback.
 Flexibility: Adaptable to various volunteer roles and needs.
 Reporting: Enables analysis of volunteer engagement and program effectiveness.
+
+Integrating these essential tables is crucial for a robust food bank management system. Here's a roadmap for connecting them:
+
+1. User Profiles:
+
+Donors: Link donor_id in Donations to user_id in Users for donation history and communication.
+Recipients: Link recipient_id in Donations (if applicable) or dedicated Recipients table to user_id in Users for eligibility verification and personalized assistance.
+Volunteers: Link volunteer_id in Volunteer_Activities (or other tracking tables) to user_id in Users for managing schedules, skills, and feedback.
+Administrators: Assign specific roles and permissions within Users for managing donations, inventory, volunteers, and system access.
+2. Donation Management:
+
+Inventory Updates: Update Inventory table quantities upon donation receipt, referencing donation_id in Donations.
+Donor Recognition: Track donation history associated with each donor_id in Users for appreciation and potential incentives.
+Recipient Matching: Based on recipient profiles and needs, link donations to eligible recipients using recipient_id in Donations or the dedicated Recipients table.
+
