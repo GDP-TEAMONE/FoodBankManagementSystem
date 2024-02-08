@@ -280,9 +280,18 @@ Donors: Link donor_id in Donations to user_id in Users for donation history and 
 Recipients: Link recipient_id in Donations (if applicable) or dedicated Recipients table to user_id in Users for eligibility verification and personalized assistance.
 Volunteers: Link volunteer_id in Volunteer_Activities (or other tracking tables) to user_id in Users for managing schedules, skills, and feedback.
 Administrators: Assign specific roles and permissions within Users for managing donations, inventory, volunteers, and system access.
-2. Donation Management:
 
+2. Donation Management:
 Inventory Updates: Update Inventory table quantities upon donation receipt, referencing donation_id in Donations.
 Donor Recognition: Track donation history associated with each donor_id in Users for appreciation and potential incentives.
 Recipient Matching: Based on recipient profiles and needs, link donations to eligible recipients using recipient_id in Donations or the dedicated Recipients table.
 
+3. Inventory Management:
+Donation Origin: Track donation source (donation_source in Donations) within Inventory for traceability and reporting.
+Expiry Tracking: Monitor expiry dates in Inventory and link expiring items to related Donations for timely distribution or redistribution.
+Volunteer Involvement: Connect volunteers involved in inventory sorting, packing, or distribution through Volunteer_Activities and link them to specific inventory_ids or batches.
+
+4. Volunteer Management:
+Skill Matching: Utilize volunteer skills (skills in Volunteers) during volunteer assignment and task allocation based on inventory_id or donation needs.
+Activity Tracking: Record volunteer hours and activities related to specific donations (donation_id) or inventory items (inventory_id) in Volunteer_Activities.
+Performance Feedback: Link volunteer feedback to activities in Volunteer_Activities and respective user_id in Users for performance evaluation and motivation.
