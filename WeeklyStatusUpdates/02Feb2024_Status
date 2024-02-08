@@ -30,6 +30,20 @@ notes (TEXT) (optional, for admin use)
 created_at (DATETIME DEFAULT CURRENT_TIMESTAMP)
 updated_at (DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP)
 
+Additionally, we can consider below items as well, when we are creating a database table for user registration:
+Separate Profiles table: Consider a separate table for more detailed user profiles specific to each role (e.g., dietary restrictions for recipients, volunteer skills and availability).
+Social media integration: If you allow social media logins, store relevant tokens securely.
+Privacy settings: Allow users to control their profile visibility and data sharing preferences.
+Verification process: Implement email or phone verification for added security.
+Compliance: Adhere to data privacy regulations and user consent requirements.
+Benefits of this design:
+
+Flexibility: Accommodates different user types and information needs.
+Scalability: Handles a growing user base efficiently.
+Security: Stores passwords securely and protects sensitive data.
+Maintainability: Simplifies user management and profile updates.
+Reporting: Enables user analysis and reporting based on user type and other attributes.
+
 2) UserProfile Table:
 Design a "UserProfile" table linked to the "User" table via the UserID as a foreign key.
 Include attributes such as ProfileID, FirstName, LastName, Email, ContactNumber, and Address in the "UserProfile" table.
