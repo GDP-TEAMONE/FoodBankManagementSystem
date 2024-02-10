@@ -19,3 +19,14 @@ List of Proposed Prototypes
   -Tax receipt generation: Automatically generate and email tax receipts.
   -Communication tools: Send updates and thank-you messages to donors.
   -Reporting: Generate reports on donor activity, types of donations, and impact.
+
+5.Inventory Prototype:
+
+-Centralized inventory database: Stores information about each food item (name, category, quantity, expiration date).
+-Inventory tracking: Stores information about each food item (name, category, quantity, expiration date).
+-Item search and filtering: Allows users to find specific items based on different criteria.
+-Inventory addition and editing: Enables adding new items and updating existing entries.
+-Inventory alerts: Notifies users about low stock levels and upcoming expirations.
+-Reporting tools: Generates various reports on inventory, donations, and distributions.
+
+
