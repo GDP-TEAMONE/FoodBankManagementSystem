@@ -6,3 +6,16 @@ List of Proposed Prototypes
 2. User Login Prototype:
   -Enter the password and username in the textfield.
   -To reser the password "Forgot Password".
+
+3.Reset Password Prototype:
+  -Enter your username or email address for identification.
+  -An email is delivered for user's password reset.
+  -Password reset using the reset form.
+
+4.Donor Prototype:
+  -Donor registration and login: Selection of account types for individual, corporate, and food drive organizers.
+  -Donation form: Allow various donation options (based on food items types).
+  -Donation tracking: Show donors the status and impact of their contributions.
+  -Tax receipt generation: Automatically generate and email tax receipts.
+  -Communication tools: Send updates and thank-you messages to donors.
+  -Reporting: Generate reports on donor activity, types of donations, and impact.
