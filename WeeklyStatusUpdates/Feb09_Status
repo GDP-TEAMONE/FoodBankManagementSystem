@@ -29,4 +29,13 @@ List of Proposed Prototypes
 -Inventory alerts: Notifies users about low stock levels and upcoming expirations.
 -Reporting tools: Generates various reports on inventory, donations, and distributions.
 
+6.Volunteer Prototype:
+
+-Volunteer registration and profile creation: Allow volunteers to create profiles with personal information, skills, and availability.
+-Opportunity browsing and interest selection: Show available volunteer opportunities and let volunteers express interest.
+-Scheduling tools: Enable volunteers to sign up for specific shifts and tasks.
+-Volunteer communication: Send email or notification updates to volunteers.
+-Task tracking and feedback: Allow volunteers to record their hours and provide feedback on their experience.
+-Volunteer coordinator dashboard: Provide an overview of volunteer activities, assignments, and communications.
+-User roles and permissions: Define separate roles for volunteers and coordinators with limited access controls.
 
