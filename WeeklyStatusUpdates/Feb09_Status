@@ -1,0 +1,8 @@
+List of Proposed Prototypes
+1.User Registration Prototype:
+  -User's personal information like name, email annd phone number fields are used for registration.
+  -creation of a username and password for login.
+  -User profile is verified (email).
+2. User Login Prototype:
+  -Enter the password and username in the textfield.
+  -To reser the password "Forgot Password".
