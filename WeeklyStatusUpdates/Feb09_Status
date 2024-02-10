@@ -53,3 +53,8 @@ List of Proposed Prototypes
 -Open-ended feedback options: Allow users to provide detailed comments and suggestions.
 -Rating systems: Utilize star ratings or thumbs-up/down options for quick feedback collection.
 
+User Registration:
+Actors: user
+Description: Users can register for an account on the food bank management system to access donor functionalities and receive updates.
+Precondition: User accesses the registration page and provides required information can View the profile and edit .
+Postcondition: User account is created, and registration confirmation is sent to the user's email address
