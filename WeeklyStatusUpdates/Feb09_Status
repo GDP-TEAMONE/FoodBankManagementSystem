@@ -39,3 +39,11 @@ List of Proposed Prototypes
 -Volunteer coordinator dashboard: Provide an overview of volunteer activities, assignments, and communications.
 -User roles and permissions: Define separate roles for volunteers and coordinators with limited access controls.
 
+7. Communication Prototype:
+
+-Notification system: Allow for email and SMS notifications with customizable templates for different user groups and purposes.
+-Internal communication platform: Provide a forum, chat, or message board for staff and volunteers to connect and collaborate.
+-User preferences: Enable users to set notification preferences and opt-out of specific messages.
+-Analytics and reporting: Track message delivery rates, engagement metrics, and communication effectiveness.
+-Content management system (CMS): Allow authorized users to create and edit notification templates and internal communication content.
+
