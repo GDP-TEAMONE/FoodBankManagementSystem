@@ -1,0 +1,60 @@
+List of Proposed Prototypes
+1.User Registration Prototype:
+  -User's personal information like name, email annd phone number fields are used for registration.
+  -creation of a username and password for login.
+  -User profile is verified (email).
+2. User Login Prototype:
+  -Enter the password and username in the textfield.
+  -To reser the password "Forgot Password".
+
+3.Reset Password Prototype:
+  -Enter your username or email address for identification.
+  -An email is delivered for user's password reset.
+  -Password reset using the reset form.
+
+4.Donor Prototype:
+  -Donor registration and login: Selection of account types for individual, corporate, and food drive organizers.
+  -Donation form: Allow various donation options (based on food items types).
+  -Donation tracking: Show donors the status and impact of their contributions.
+  -Tax receipt generation: Automatically generate and email tax receipts.
+  -Communication tools: Send updates and thank-you messages to donors.
+  -Reporting: Generate reports on donor activity, types of donations, and impact.
+
+5.Inventory Prototype:
+
+-Centralized inventory database: Stores information about each food item (name, category, quantity, expiration date).
+-Inventory tracking: Stores information about each food item (name, category, quantity, expiration date).
+-Item search and filtering: Allows users to find specific items based on different criteria.
+-Inventory addition and editing: Enables adding new items and updating existing entries.
+-Inventory alerts: Notifies users about low stock levels and upcoming expirations.
+-Reporting tools: Generates various reports on inventory, donations, and distributions.
+
+6.Volunteer Prototype:
+
+-Volunteer registration and profile creation: Allow volunteers to create profiles with personal information, skills, and availability.
+-Opportunity browsing and interest selection: Show available volunteer opportunities and let volunteers express interest.
+-Scheduling tools: Enable volunteers to sign up for specific shifts and tasks.
+-Volunteer communication: Send email or notification updates to volunteers.
+-Task tracking and feedback: Allow volunteers to record their hours and provide feedback on their experience.
+-Volunteer coordinator dashboard: Provide an overview of volunteer activities, assignments, and communications.
+-User roles and permissions: Define separate roles for volunteers and coordinators with limited access controls.
+
+7. Communication Prototype:
+
+-Notification system: Allow for email and SMS notifications with customizable templates for different user groups and purposes.
+-Internal communication platform: Provide a forum, chat, or message board for staff and volunteers to connect and collaborate.
+-User preferences: Enable users to set notification preferences and opt-out of specific messages.
+-Analytics and reporting: Track message delivery rates, engagement metrics, and communication effectiveness.
+-Content management system (CMS): Allow authorized users to create and edit notification templates and internal communication content.
+
+8. Feedback Prototype:
+
+-Multiple feedback channels: Offer various options like feedback forms, and suggestion boxes.
+-Open-ended feedback options: Allow users to provide detailed comments and suggestions.
+-Rating systems: Utilize star ratings or thumbs-up/down options for quick feedback collection.
+
+User Registration:
+Actors: user
+Description: Users can register for an account on the food bank management system to access donor functionalities and receive updates.
+Precondition: User accesses the registration page and provides required information can View the profile and edit .
+Postcondition: User account is created, and registration confirmation is sent to the user's email address
