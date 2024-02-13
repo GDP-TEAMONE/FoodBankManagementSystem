@@ -18,3 +18,8 @@ Non-Functional Requirements for the Food Bank Framework:
     - Data integrity checks should be performed regularly to detect and prevent corruption or loss of data.
 	- Version control mechanisms should be implemented to track changes to critical data and allow for rollbacks if necessary.
 	- Audit trails should be maintained to track user actions and modifications to sensitive data.
+6. Usability
+	- The user interface should be intuitive and easy to navigate, with consistent design patterns and terminology.
+	- Accessibility features should be implemented to accommodate users with disabilities.
+	- Training materials and documentation should be provided to help users quickly learn how to use the system effectively.
+
