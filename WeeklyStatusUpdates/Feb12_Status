@@ -1,0 +1,6 @@
+Non-Functional Requirements for the Food Bank Framework:
+
+1. Performance
+    - Under normal network conditions, the system should react to user actions in three seconds or less.
+    - Report generation is an example of a batch operation that should finish in a fair amount of time, no more than ten minutes.
+    - Scalability: There should be no performance drop when the system can accommodate a 20% increase in the number of concurrent us
