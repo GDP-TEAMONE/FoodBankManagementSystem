@@ -26,3 +26,9 @@ Non-Functional Requirements for the Food Bank Framework:
 	- Accessibility features should be implemented to accommodate users with disabilities.
 	- Training materials and documentation should be provided to help users quickly learn how to use the system effectively.
 
+7. Scalability
+    - The system should be designed to accommodate future growth in both data volume and user base.
+    - Performance should remain consistent even as the system scales to handle larger loads of data and more concurrent users.
+    - Horizontal and vertical scaling strategies should be evaluated and implemented as needed to meet increasing demands.
+
+
