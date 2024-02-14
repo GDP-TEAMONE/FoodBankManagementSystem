@@ -36,10 +36,20 @@ Benefits:
     - These requirements ensure a reliable and resilient food bank management system, minimizing disruptions and safeguarding valuable data.
 
 4. Availability
-	The system should be accessible 24/7 from any location with internet connectivity.
-	Redundant servers and failover mechanisms should be implemented to ensure high availability in the event of hardware or network failures.
-	Emergency procedures should be documented and tested to minimize downtime in case of disasters.
+    - The system should be accessible 24/7 from any location with internet connectivity.
+    - Redundant servers and failover mechanisms should be implemented to ensure high availability in the event of hardware or network failures.
+    - Emergency procedures should be documented and tested to minimize downtime in case of disasters.
 
+    The system prioritizes uninterrupted service delivery and resilience in case of emergencies:
+    - 24/7 accessibility: Users should be able to access the system anytime, anywhere with internet access.
+    - High availability: Redundant servers and failover mechanisms ensure service continuity even during hardware or network disruptions.
+    - Disaster recovery: Documented and tested emergency procedures minimize downtime in case of major incidents.
+
+Benefits:
+    - Constant accessibility empowers food banks and users to manage operations efficiently.
+    - Redundancy minimizes service interruptions, ensuring critical data and functionalities remain available.
+    - Prepared disaster recovery plans mitigate the impact of unforeseen events, safeguarding system integrity.
+    - These requirements guarantee a reliable and responsive system, minimizing disruptions and ensuring continued support for food bank operations.
 
 5. Data Integrity
     - Data integrity checks should be performed regularly to detect and prevent corruption or loss of data.
