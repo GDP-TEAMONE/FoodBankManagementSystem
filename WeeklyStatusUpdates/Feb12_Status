@@ -15,7 +15,19 @@ Non-Functional Requirements for the Food Bank Framework:
     - Automatic backups of all data should be performed daily, with a retention period of at least 30 days.
     - Error handling mechanisms should be in place to gracefully handle unexpected failures and prevent data loss.
 
-4.Availability
+      This system prioritizes high availability and data integrity with the following key requirements:
+
+    - High uptime: Aim for at least 99.9% uptime, allowing for planned maintenance periods.
+    - Regular backups: Conduct automatic daily backups of all data, ensuring a retention period of at least 30 days.
+    - Robust error handling: Implement mechanisms to gracefully handle unexpected failures, preventing data loss and minimizing service disruptions.
+
+Benefits:
+    - Minimized downtime ensures consistent availability for food banks and clients.
+    - Regular backups safeguard crucial data against failures or accidental deletion.
+    - Robust error handling prevents cascading issues and data corruption.
+    - These requirements ensure a reliable and resilient food bank management system, minimizing disruptions and safeguarding valuable data.
+
+4. Availability
 	The system should be accessible 24/7 from any location with internet connectivity.
 	Redundant servers and failover mechanisms should be implemented to ensure high availability in the event of hardware or network failures.
 	Emergency procedures should be documented and tested to minimize downtime in case of disasters.
