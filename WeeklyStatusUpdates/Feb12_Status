@@ -4,7 +4,15 @@ Non-Functional Requirements for the Food Bank Framework:
     - Under normal network conditions, the system should react to user actions in three seconds or less.
     - Report generation is an example of a batch operation that should finish in a fair amount of time, no more than ten minutes.
     - Scalability: There should be no performance drop when the system can accommodate a 20% increase in the number of concurrent us.
-
+     The system must deliver responsiveness and handle increasing user volume effectively:
+     Responsiveness: Under normal network conditions, user actions should trigger responses within 3 seconds.
+      Report generation: Batch operations like reports should complete within 10 minutes.
+      Scalability: Performance should remain stable even with a 20% increase in concurrent users.
+      Benefits:
+	Fast response times enhance user experience and efficiency.
+	Reasonable report generation speeds ensure timely access to valuable insights.
+	Scalability accommodates growth and prevents performance bottlenecks.
+These requirements guarantee an agile and adaptable system that supports increasing user demands without compromising efficiency.
 2. Security
     - All sensitive data, including donor information and volunteer profiles, must be encrypted both in transit and at rest.
     - Role-based access control should be implemented to ensure that users can only access data and functionalities appropriate to their roles.
