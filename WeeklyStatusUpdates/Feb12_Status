@@ -19,15 +19,15 @@ These requirements guarantee an agile and adaptable system that supports increas
     - Role-based access control should be implemented to ensure that users can only access data and functionalities appropriate to their roles.
     - Regular security audits and penetration testing should be conducted to identify and address potential vulnerabilities.
 
-  This system prioritizes robust security measures to protect sensitive data and user access:
-  Data encryption: All sensitive information, including donor details and volunteer profiles, must be encrypted at rest (stored) and in transit (communicated).
-  Role-based access control: Implement a system where users only access data and features relevant to their assigned roles, minimizing unauthorized access.
-  Security audits and testing: Conduct regular security audits and penetration testing to identify and address potential vulnerabilities before they can be exploited.
+   This system prioritizes robust security measures to protect sensitive data and user access:
+    - Data encryption: All sensitive information, including donor details and volunteer profiles, must be encrypted at rest (stored) and in transit (communicated).
+    - Role-based access control: Implement a system where users only access data and features relevant to their assigned roles, minimizing unauthorized access.
+   - Security audits and testing: Conduct regular security audits and penetration testing to identify and address potential vulnerabilities before they can be exploited.
 
-  Benefits:
-  Encryption safeguards sensitive data from unauthorized access, even if intercepted.
-  Role-based access control grants appropriate user privileges, minimizing the risk of misuse.
-  Regular security assessments strengthen the system's defenses against emerging threats.
+   Benefits:
+   - Encryption safeguards sensitive data from unauthorized access, even if intercepted.
+   - Role-based access control grants appropriate user privileges, minimizing the risk of misuse.
+   - Regular security assessments strengthen the system's defenses against emerging threats.
 These requirements ensure a secure environment for managing sensitive data and user accounts, fostering trust and compliance with data protection regulations.
 
 3. Stability
