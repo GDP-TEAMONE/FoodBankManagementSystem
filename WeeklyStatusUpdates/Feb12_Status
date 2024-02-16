@@ -129,3 +129,9 @@ An administrator is a person, or user, who has admin rights and who looks after 
 - Name: This is user's name.
 - Contact Details: This is the user's email or  phone number, which will be used to contact them and send alert notifications.
 - User Type: A user can be a Donor, a Recipient, a Volunteer, or an Administrator.
+
+Donation Table:
+Attributes: DonationID (primary key), UserID (foreign key to User), Date, Quantity, Type, ExpirationDate
+Here, Donation_ID is the primary key, where we are able to track all the doantions based on the Donation_ID. User_ID from the Uset table is mapped into this table, to link the donations to the users who have made donations.
+This table consists of attributes like date(for the donation date), quantity(to map the quantity of donation made in Lbs/Kgs), Type(this can be ready food, package food, based on the food type) 
+and at last we have, ExpirationDate(for the food donated, we have mapped date of expiry).
