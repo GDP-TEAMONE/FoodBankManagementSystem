@@ -1,4 +1,4 @@
-Non-Functional Requirements for the Food Bank Framework:
+** Non-Functional Requirements for the Food Bank Framework:
 
 1. Performance
     - Under normal network conditions, the system should react to user actions in three seconds or less.
@@ -116,3 +116,16 @@ Strategic scaling optimizes resource utilization and cost-effectiveness while me
 These requirements guarantee a future-proof system that adapts to your food bank's evolving needs, ensuring operational efficiency and seamless user experience.
 
 
+** ER Diagrams: 
+We have built an ER diagram for the integrated food bank management system and the details are as follows:
+
+Entities:
+User table:
+Attributes: UserID (primary key), Name, Contact Details, UserType (Donor, Recipient, Volunteer, Administrator)
+- UserID: A user can have multiple types/roles, based on what they are doing. For example, a user can be a donor, who donates food.
+A recipient can act as a user of the food bank management system, where they can receive the food donation.
+A volunteer with a specific skill set and availability can be a user who logs in to the food bank management system and works as a skilled volunteer.
+An administrator is a person, or user, who has admin rights and who looks after all the food bank management system or handles the system.
+- Name: This is user's name.
+- Contact Details: This is the user's email or  phone number, which will be used to contact them and send alert notifications.
+- User Type: A user can be a Donor, a Recipient, a Volunteer, or an Administrator.
