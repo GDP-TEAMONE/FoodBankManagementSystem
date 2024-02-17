@@ -151,6 +151,21 @@ FoodItemID, is used to identify the type of food and all other food details.
 Quantity, is amount of food stored, in Lbs/Kgs.
 Location, is the place where the food is stored
 
+Recipient Table:
+Attributes: RecipientID (primary key), UserID (foreign key to User), Eligibility Status, FamilySize
+RecipientID, is the unique id given to each recipient.
+UserID, a recippient who is also a user, has a user id.
+Eligibility, this is used to track the eligibility for each recipient.
+Status, this is used to store the current satus of the food order
+FamilySize, it is used to store the number of family members of recipent
+
+DistributionEvent Table:
+Attributes: EventID (primary key), Date, Location, VolunteerCount
+
+EventID, is unique identifier to DistributionEvent table
+Date is an attribute used  for storing the date of DistributionEvent
+Location, it is used for storing the location of the food
+VolunteerCount, it is used to stotre the count of volunteer for distribution
 
 Volunteer Table:
 Attributes: VolunteerID (primary key), UserID (foreign key to User), Skills, Availability
