@@ -150,3 +150,12 @@ InventoryID, is the primary key, from which the food items stored in inventory a
 FoodItemID, is used to identify the type of food and all other food details.
 Quantity, is amount of food stored, in Lbs/Kgs.
 Location, is the place where the food is stored
+
+
+Volunteer Table:
+Attributes: VolunteerID (primary key), UserID (foreign key to User), Skills, Availability
+VolunteerID, is and unique and not null attribute in Volunteer table
+UserId , it is foreign key and primary key in user tabel
+Skills , it is used to sorting skills of the Volunteer
+Availability , is used to store the Availability  of the volunteer
+
