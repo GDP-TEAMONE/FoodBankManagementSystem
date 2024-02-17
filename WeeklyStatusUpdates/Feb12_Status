@@ -135,3 +135,10 @@ Attributes: DonationID (primary key), UserID (foreign key to User), Date, Quanti
 Here, Donation_ID is the primary key, where we are able to track all the doantions based on the Donation_ID. User_ID from the Uset table is mapped into this table, to link the donations to the users who have made donations.
 This table consists of attributes like date(for the donation date), quantity(to map the quantity of donation made in Lbs/Kgs), Type(this can be ready food, package food, based on the food type) 
 and at last we have, ExpirationDate(for the food donated, we have mapped date of expiry).
+
+Inventory Table:
+Attributes: InventoryID (primary key), FoodItemID (foreign key to FoodItem), Quantity, Location
+InventoryID, is the primary key, from which the food items stored in inventory are tracked.
+FoodItemID, is used to identify the type of food and all other food details.
+Quantity, is amount of food stored, in Lbs/Kgs.
+Location, is the place where the food is stored
