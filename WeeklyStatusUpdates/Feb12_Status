@@ -136,6 +136,14 @@ Here, Donation_ID is the primary key, where we are able to track all the doantio
 This table consists of attributes like date(for the donation date), quantity(to map the quantity of donation made in Lbs/Kgs), Type(this can be ready food, package food, based on the food type) 
 and at last we have, ExpirationDate(for the food donated, we have mapped date of expiry).
 
+FoodItem Table:
+Attributes: FoodItemID (primary key), Name, Category, AllergenInfo, NutritionalInfo
+Here, FoodItemID is the primary key, through which all the donated food items are tracked.
+Name, is for the food, just as an identifier.
+Category, is based on the food type, under which cateogory the food comes in.
+AllergenInfo, this attribute is to give information about the food's allergy to customers.
+NutritionalInfo, for the food, we have nutiritional values specified.
+
 Inventory Table:
 Attributes: InventoryID (primary key), FoodItemID (foreign key to FoodItem), Quantity, Location
 InventoryID, is the primary key, from which the food items stored in inventory are tracked.
