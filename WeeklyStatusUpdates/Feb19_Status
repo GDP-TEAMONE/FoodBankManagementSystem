@@ -1,0 +1,16 @@
+Creating the User table and Inserting few values
+
+CREATE TABLE User (
+    User_ID INT PRIMARY KEY,
+    Username VARCHAR(20),
+    Password VARCHAR(20),
+    Role VARCHAR(20),
+    Email VARCHAR(20)
+);
+
+INSERT INTO User (User_ID, Username, Password, Role, Email)
+VALUES
+    (1, 'user1', 'password1', 'admin', 'user1@gmail.com'),
+    (2, 'user2', 'password2', 'donor', 'user2@gmail.com'),
+    (3, 'user3', 'password3', 'donor', 'user3@gmail.com'),
+    (4, 'user4', 'password4', 'volunteer', 'user4@gmail.com');
