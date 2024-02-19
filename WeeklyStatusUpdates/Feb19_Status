@@ -1,5 +1,6 @@
-Creating the User table and Inserting few values
+Creating the User table and Inserting a few values:
 
+1) User table:
 CREATE TABLE User (
     User_ID INT PRIMARY KEY,
     Username VARCHAR(20),
@@ -13,4 +14,35 @@ VALUES
     (1, 'user1', 'password1', 'admin', 'user1@gmail.com'),
     (2, 'user2', 'password2', 'donor', 'user2@gmail.com'),
     (3, 'user3', 'password3', 'donor', 'user3@gmail.com'),
-    (4, 'user4', 'password4', 'volunteer', 'user4@gmail.com');
+    (4, 'user4', 'password4', 'volunteer', 'user4@gmail.com'),
+    (5, 'user5', 'password5', 'volunteer', 'user5@gmail.com'),
+    (6, 'user6', 'password6', 'volunteer', 'user6@gmail.com'),
+    (7, 'user7', 'password7', 'recipient', 'user7@gmail.com'),
+    (8, 'user8', 'password8', 'recipient', 'user8@gmail.com'),
+    (9, 'user9', 'password9', 'recipient', 'user9@gmail.com'),
+    (10, 'user10', 'password10', 'admin', 'user10@gmail.com'),
+    (11, 'user11', 'password11', 'admin', 'user11@gmail.com');
+
+2) Admin table: 
+
+CREATE TABLE Administrator ( 
+Admin_ID INT PRIMARY KEY,
+FOREIGN KEY (User_ID) REFERENCES User(User_ID)
+);
+
+INSERT INTO Administrator (Admin_ID, User_ID)
+VALUES
+    (100, 1),
+    (101, 10),
+    (102, 11);
+
+3) Donor table:
+
+CREATE TABLE Donor(Donor_ID INT PRIMARY_KEY,
+FOREIGN KEY (User_ID) REFERENCES User(User_ID)
+);
+
+INSERT INTO Donor (Donor_ID, User_ID)
+VALUES
+    (1000, 2),
+    (1001, 3);
