@@ -46,3 +46,20 @@ INSERT INTO Donor (Donor_ID, User_ID)
 VALUES
     (1000, 2),
     (1001, 3);
+
+4) Recipient Table
+create table Recipient(Recipient_ID int primary key, FOREIGN KEY (User_ID) REFERENCES User(User_ID));
+
+insert into Recipient(Recipient_ID,User_ID ) Values(101,1)
+insert into Recipient(Recipient_ID,User_ID ) Values(102,2)
+insert into Recipient(Recipient_ID,User_ID ) Values(103,3)
+insert into Recipient(Recipient_ID,User_ID ) Values(104,1)
+
+5) Volunteer Table
+
+create table Volunteer(Volunteer_ID int primary key, FOREIGN KEY (User_ID) REFERENCES User(User_ID));
+
+insert into Volunteer(Volunteer_ID ,User_ID) values(1001,1)
+insert into Volunteer(Volunteer_ID ,User_ID) values(1002,2)
+insert into Volunteer(Volunteer_ID ,User_ID) values(1003,3)
+insert into Volunteer(Volunteer_ID ,User_ID) values(1004,4)
