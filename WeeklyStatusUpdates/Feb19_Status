@@ -123,3 +123,17 @@ INSERT INTO Donation (Donation_ID, Donor_ID, Donation_date, Quantity, Item_name,
 (2, 1001, '2024-02-16', 100, 'Blankets', '2024-12-31'),
 (3, 1002, '2024-02-15', 30, 'Shoes', 2024-12-31),
 (4, 1001, '2024-02-15', 200, 'Clothes', '2023-09-30');
+
+10) create table Notification(
+     Notification_ID int primary key, 
+     Notification_date date, 
+     Notification_type varchar(20), 
+     Notification_content varchar(20), 
+     FOREIGN KEY (User_ID) REFERENCES User(User_ID))
+);
+
+INSERT INTO Notification(Notification_ID,  Notification_date, Notification_type, Notification_content) VALUES
+(1, '2024-02-16', 'Warning', 'Your account balance is low'),
+(2, '2024-02-17', 'Info', 'New feature added'),
+(3, '2024-02-18', 'Alert', 'Server maintenance scheduled for tomorrow.'),
+(4, '2024-02-19', 'Information', 'his is a sample notification message.');
