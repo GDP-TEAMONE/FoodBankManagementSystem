@@ -101,3 +101,19 @@ VALUES
     FOREIGN KEY (Recipient_ID) REFERENCES Recipient(Recipient_ID),
     FOREIGN KEY (Donor_ID) REFERENCES Donor(Donor_ID)
 );
+
+9) CREATE TABLE Donation (
+    Donation_ID INT PRIMARY KEY,
+    Donor_ID INT,
+    Donation_date DATE,
+    Quantity INT,
+    Item_name VARCHAR(20),
+    Expiration_date DATE,
+    FOREIGN KEY (Donor_ID) REFERENCES Donor(Donor_ID)
+);
+
+INSERT INTO Donation (Donation_ID, Donor_ID, Donation_date, Quantity, Item_name, Expiration_date) VALUES
+(1, 101, '2024-02-16', 50, 'Rice', '2025-02-16'),
+(2, 102, '2024-02-16', 100, 'Beans', '2025-03-01'),
+(3, 103, '2024-02-15', 30, 'Canned Soup', '2024-12-31'),
+(4, 104, '2024-02-15', 20, 'Pasta', '2024-12-31');
