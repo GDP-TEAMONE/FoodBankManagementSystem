@@ -92,3 +92,12 @@ VALUES
     (2, '2024-02-22', 102),
     (3, '2024-02-24', 103),
     (4, '2024-02-26', 104);
+
+8) CREATE TABLE Distribution (
+    Distribution_ID INT PRIMARY KEY,
+    Distribution_date DATE,
+    Recipient_ID INT,
+    Donor_ID INT,
+    FOREIGN KEY (Recipient_ID) REFERENCES Recipient(Recipient_ID),
+    FOREIGN KEY (Donor_ID) REFERENCES Donor(Donor_ID)
+);
