@@ -102,6 +102,12 @@ VALUES
     FOREIGN KEY (Donor_ID) REFERENCES Donor(Donor_ID)
 );
 
+INSERT INTO Distribution (Distribution_ID, Distribution_date, Recipient_ID, Donor_ID) VALUES
+(111, '2024-02-26', 101, 1000),
+(222, '2024-02-27', 102, 1001),
+(333, '2024-02-28', 103, 1002),
+(444, '2024-02-29', 104, 1001);
+
 9) CREATE TABLE Donation (
     Donation_ID INT PRIMARY KEY,
     Donor_ID INT,
