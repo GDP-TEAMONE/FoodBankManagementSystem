@@ -140,4 +140,49 @@ Link to redirect to the login page if the user already has an account.
                                 <form class="form-horizontal" method="POST" action="#">
                                     <label>E-Mail Address</label>
                                     <input id="email" type="email" name="email" class="form-control" placeholder="E-Mail Address" value="" required autofocus>
+                                    <label>Password</label>
+                                    <input id="password" type="password" class="form-control" placeholder="Password" name="password" required>
+                                    <input type="submit" class="btn btn-primary btn-block" value="Login" />
+                                </form>
+                                <div class="havelogin">
+                                    <a href="register.htm" class="btn btn-simple btn-info">Don't have an account ? Sign Up</a>
+                                </div>
+                                <div class="forgot">
+                                    <a href="reset-password.htm" class="btn btn-simple btn-warning">Forgot your password?</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+        </div>
+    </div>      
 
+</body>
+
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
+
+</html>
+
+
+The provided HTML code represents a login form for the Food Bank Management System. Here's a summary of its structure and functionality:
+ 
+* Head Section: 
+Meta tags for character set, viewport, and compatibility.
+Title of the page set to "FoodBank Login".
+External CSS and font links for styling.
+
+
+
+* Body Section: 
+Navigation bar with the brand name "FoodBank".
+
+* Main Content: 
+A wrapper div containing the login form.
+Inside the wrapper, there's a background image for aesthetics.
+A container div with rows and columns to structure the content.
+
+* A login form with:
+Input fields for email address and password.
+Submit button to login.
+Links for registering a new account and resetting the password.
