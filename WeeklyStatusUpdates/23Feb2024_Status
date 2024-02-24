@@ -238,3 +238,43 @@ hr {
 .btn-sm.btn-simple {
   padding: 6px 10px;
 }
+
+.btn-xs {
+  font-size: 12px;
+  border-radius: 26px;
+  padding: 2px 5px;
+}
+.btn-xs.btn-simple {
+  padding: 4px 5px;
+}
+
+.btn-wd {
+  min-width: 140px;
+}
+
+.btn-group.select {
+  width: 100%;
+}
+
+.btn-group.select .btn {
+  text-align: left;
+}
+
+.btn-group.select .caret {
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  right: 8px;
+}
+
+.form-control::-moz-placeholder {
+  color: #DDDDDD;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.form-control:-moz-placeholder {
+  color: #DDDDDD;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
