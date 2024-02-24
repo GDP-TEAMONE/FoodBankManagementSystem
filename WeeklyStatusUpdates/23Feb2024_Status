@@ -73,3 +73,62 @@ blockquote small {
   font-style: normal;
 }
 
+.text-muted {
+  color: #DDDDDD;
+}
+
+.text-primary, .text-primary:hover {
+  color: #427C89 !important;
+}
+
+.text-info, .text-info:hover {
+  color: #3091B2 !important;
+}
+
+.text-success, .text-success:hover {
+  color: #42A084 !important;
+}
+
+.text-warning, .text-warning:hover {
+  color: #BB992F !important;
+}
+
+.text-danger, .text-danger:hover {
+  color: #B33C12 !important;
+}
+
+.glyphicon {
+  line-height: 1;
+}
+
+/*     General overwrite     */
+body {
+  color: #66615b;
+  font-size: 16px;
+  font-family: 'Montserrat', "Helvetica", Arial, sans-serif;
+}
+
+a {
+  color: #68B3C8;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
+a:hover, a:focus {
+  color: #3091B2;
+  text-decoration: none;
+}
+
+hr {
+  border-color: #F1EAE0;
+}
+
+.icon {
+  fill: #66615b;
+}
+
+.fa-base {
+  font-size: 1.25em !important;
+}
