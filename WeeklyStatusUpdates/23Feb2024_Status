@@ -193,3 +193,48 @@ hr {
 .btn-neutral:hover, .btn-neutral:focus {
   color: #66615B;
 }
+.btn-neutral:active, .btn-neutral.active, .open > .btn-neutral.dropdown-toggle {
+  background-color: #FFFFFF;
+  color: #66615B;
+}
+.btn-neutral.btn-fill {
+  color: #66615B;
+}
+.btn-neutral.btn-fill:hover, .btn-neutral.btn-fill:focus {
+  color: #403D39;
+}
+.btn-neutral.btn-simple:active, .btn-neutral.btn-simple.active {
+  background-color: transparent;
+}
+
+.btn:disabled, .btn[disabled], .btn.disabled {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.btn-simple {
+  border: 0;
+  padding: 7px 18px;
+}
+.btn-simple.btn-icon {
+  padding: 7px;
+}
+
+.btn-lg {
+  font-size: 20px;
+  border-radius: 50px;
+  padding: 11px 30px;
+  font-weight: 400;
+}
+.btn-lg.btn-simple {
+  padding: 13px 30px;
+}
+
+.btn-sm {
+  font-size: 14px;
+  border-radius: 26px;
+  padding: 4px 10px;
+}
+.btn-sm.btn-simple {
+  padding: 6px 10px;
+}
