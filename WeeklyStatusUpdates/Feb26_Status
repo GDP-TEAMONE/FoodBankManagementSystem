@@ -46,3 +46,41 @@ Route::prefix('admin')->group(function () {
 	Route::get('/', 'Auth\AdminController@index')->name('admin-dashboard');
 	Route::post('/logout', 'Auth\AdminLoginController@adminLogout')->name('admin-logout');
 });
+
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Broadcast Channels
+|--------------------------------------------------------------------------
+|
+| Here you may register all of the event broadcasting channels that your
+| application supports. The given channel authorization callbacks are
+| used to check if an authenticated user can listen to the channel.
+|
+*/
+
+Broadcast::channel('App.User.{id}', function ($user, $id) {
+    return (int) $user->id === (int) $id;
+});
+
+<?php
+
+use Illuminate\Foundation\Inspiring;
+
+/*
+|--------------------------------------------------------------------------
+| Console Routes
+|--------------------------------------------------------------------------
+|
+| This file is where you may define all of your Closure based console
+| commands. Each Closure is bound to a command instance allowing a
+| simple approach to interacting with each command's IO methods.
+|
+*/
+
+Artisan::command('inspire', function () {
+    $this->comment(Inspiring::quote());
+})->describe('Display an inspiring quote');
+
+
