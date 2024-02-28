@@ -1,0 +1,9 @@
+Database schema outlines the basic structure of tables and their relationships in a food bank management system. Below, I'll expand on this schema and provide additional details on how each table can be utilized within the system
+
+User: Stores information about users of the system, including their roles (administrator, donor, recipient, or volunteer).
+
+Administrator: Represents administrators who have access to system management functionalities.
+
+Donor: Contains details about individuals or organizations donating food items to the food bank.
+
+Recipient: Stores information about individuals or families receiving assistance from the food bank.
