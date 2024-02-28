@@ -7,3 +7,14 @@ Administrator: Represents administrators who have access to system management fu
 Donor: Contains details about individuals or organizations donating food items to the food bank.
 
 Recipient: Stores information about individuals or families receiving assistance from the food bank.
+Volunteer: Represents individuals who volunteer their time to help with various tasks within the food bank.
+ 
+Inventory: Tracks the available food items in the food bank's inventory, including details such as item name, quantity, expiration date, and allergen information.
+ 
+Order: Records orders placed by recipients for food assistance, including the order date and recipient ID.
+ 
+Distribution: Tracks the distribution of food items from donors to recipients, including the distribution date, recipient ID, and donor ID.
+ 
+Donation: Stores information about donations made by donors, including the donation date, quantity, item name, and expiration date.
+ 
+Notification: Stores notifications sent to users of the system, such as reminders for upcoming distribution events, changes in volunteer schedules, or notifications about new donations.
