@@ -1,10 +1,21 @@
 Building a comprehensive and efficient Food Bank System involves multiple steps and considerations. 
 Let's break down the process into manageable steps:
-1.	Requirement Gathering and Analysis: The first step is to gather requirements from stakeholders including food donors, 
+1. Requirement Gathering and Analysis: The first step is to gather requirements from stakeholders including food donors, 
 recipients, volunteers, and administrators.
-2.	System Design and Architecture: Based on the gathered requirements,
+2. System Design and Architecture: Based on the gathered requirements,
 design the system architecture considering factors like scalability, security, and integration capabilities. 
 Decide on the technologies to be used for frontend, backend, and database.
-3.	User Registration and Profiles:
+3. User Registration and Profiles:
 Develop modules for user registration and profile creation for donors, recipients, volunteers, and administrators.
 Collect necessary personal and contact details and ensure data security and compliance with regulations.
+4. Donation Management:
+Implement functionality for donor registration and profile creation.
+Develop features for entering donation details such as quantity, type, and expiration dates.
+Generate automatic donation receipts for donors.
+5. Inventory Management:
+Design a centralized database for real-time tracking of food inventory.
+Implement categorization and labeling of food items for efficient organization.
+Set up alerts for low stock levels and upcoming expirations.
+6. Recipient Registration and Eligibility:
+Develop a registration process for individuals or families seeking food assistance.
+Define criteria and verification processes for determining eligibility for assistance.
