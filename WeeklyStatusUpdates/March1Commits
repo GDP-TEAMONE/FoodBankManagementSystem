@@ -42,4 +42,12 @@ Set up surveys or rating systems for users to provide input.
 18.	Integration with External Systems:
 Ensure compatibility with financial systems for donation tracking and reporting.
 Integrate with government databases for eligibility verification.
+19.	Allergen and Nutritional Information:
+Develop functionality to store and display allergen and nutritional information for food items.
+Implement alerts for potential allergen concerns during distribution.
+20.	Tracking Expiry Dates:
+Set up a system to monitor and flag food items approaching or exceeding expiration dates.
+Automate removal of expired items from inventory.
+Throughout the development process, it's essential to conduct thorough testing at each stage to ensure the system functions as intended and meets the requirements of stakeholders. 
+Additionally, consider ongoing maintenance and updates to keep the system relevant and effective over time.
 
