@@ -23,3 +23,27 @@ Donor Registration and Profile: (Refer to User Accounts and Profiles)
 Donation Entry:
 A user-friendly interface for donors to enter donation details.
 Required fields:
+
+Quantity of donated items.
+Type of food items (dropdown list with categories like canned goods, produce, dairy, etc.).
+Expiration date of the donated items.
+Optional fields:
+Brand name of the items.
+Special instructions (e.g., storage requirements).
+Ability to upload photos of the donation for reference.
+Automatic Donation Receipts:
+The system should automatically generate and email donation receipts to donors upon successful entry.
+Receipts should include:
+Donor information.
+Donated item details (quantity, type, expiration date).
+Date and time of donation.
+Food bank contact information.
+3. Inventory Management
+
+Centralized Database:
+A real-time database to track all food items received as donations.
+Categorization and Labeling:
+Functionality to categorize food items by type (canned goods, produce, etc.) for efficient organization.
+Enable barcoding or QR code generation for each item for tracking purposes.
+Inventory Alerts:
+
