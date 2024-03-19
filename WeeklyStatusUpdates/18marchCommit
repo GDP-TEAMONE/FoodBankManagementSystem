@@ -38,8 +38,8 @@ Donor information.
 Donated item details (quantity, type, expiration date).
 Date and time of donation.
 Food bank contact information.
-3. Inventory Management
 
+3. Inventory Management
 Centralized Database:
 A real-time database to track all food items received as donations.
 Categorization and Labeling:
@@ -48,16 +48,16 @@ Enable barcoding or QR code generation for each item for tracking purposes.
 Inventory Alerts:
 System should generate alerts for low stock levels of specific food items.
 Alerts for items approaching expiration dates to prevent wastage.
-4. Recipient Registration and Eligibility
 
+4. Recipient Registration and Eligibility
 Registration Process:
 An online registration process for individuals or families seeking food assistance.
 Capturing relevant information like household size, dietary restrictions, and emergency contact details.
 Eligibility Criteria:
 Define clear eligibility criteria for receiving food assistance (e.g., income level, proof of residence).
 Develop a verification process to ensure eligibility before user activation.
-5. Distribution Planning
 
+5. Distribution Planning
 Event Planning Tools:
 A calendar interface for scheduling and managing food distribution events.
 Ability to define event details like location, time, and volunteer needs.
@@ -67,7 +67,6 @@ Mapping Integration:
 Integrate with mapping services like Google Maps to create optimized delivery routes and generate directions for volunteers.
 
 6. Order Processing
-
 Food Distribution Orders:
 Functionality to create and manage food distribution orders for recipients.
 Orders should be based on recipient needs and available inventory.
@@ -75,7 +74,6 @@ Order Prioritization:
 Develop a system to prioritize orders based on urgency (e.g., dietary restrictions) or specific criteria defined by the food bank.
 
 7. Reporting and Analytics
-
 Reports Generation:
 The system should generate comprehensive reports on various aspects:
 Donation trends (quantity, type of food items).
@@ -86,7 +84,6 @@ Provide data visualization tools to identify trends and patterns in donations, d
 Utilize these insights to forecast future needs and optimize food bank operations.
 
 8. Volunteer Management
-
 Volunteer Registration and Profile: (Refer to User Accounts and Profiles)
 Scheduling Tools:
 Implement a scheduling system for assigning volunteers to specific tasks and events.
@@ -94,5 +91,28 @@ Allow volunteers to view their schedules and update availability.
 Volunteer Profiles:
 Volunteer profiles should capture skills and availability to match them with suitable tasks.
 
+9. Notification System:
+Implement a notification system to keep users informed:
+Donors: Receive notifications about donation receipts and upcoming distribution events.
+Recipients: Be notified about their eligibility status, order confirmation, and upcoming food distribution details (location, time).
+Volunteers: Get notified about assigned tasks, schedule updates, and important announcements.
+The system should offer multiple notification channels for user preference (e.g., email, SMS).
 
+Internal Communication Tools:
+Establish secure communication channels for staff and volunteers to collaborate effectively.
+Options could include:
+Internal chat platform.
+Forum for discussions and knowledge sharing.
+Announcement boards for system updates and important information.
 
+10. Mobile Accessibility
+Responsive Design or Mobile App:
+Develop a responsive website design that adapts seamlessly to different screen sizes (desktop, tablet, mobile).
+Alternatively, consider building a dedicated mobile app for user convenience.
+The mobile platform should offer easy access to key functionalities like:
+Profile management.
+Donation tracking (for donors).
+Order management and scheduling (for recipients).
+Volunteer task management and communication.
+
+QR Code Scanning:
