@@ -1,0 +1,25 @@
+Functional requirements in a project define the specific features and functionalities that a system or product must possess 
+to meet the needs of its users. They outline what the system should do, rather than how it will do it (which is addressed by
+technical requirements). Here's a breakdown of key aspects of functional requirements:
+
+1. User Accounts and Profiles
+
+User Types:
+Donors: Individuals or organizations donating food items.
+Recipients: Individuals or families seeking food assistance.
+Volunteers: Individuals offering their time and skills to support the food bank.
+Administrators: Authorized personnel managing the system and user accounts.
+Registration:
+An online registration process for all user types, including secure login credentials creation.
+Profiles:
+Each user type should have a dedicated profile page for managing personal and contact information.
+Donors: Details like name, organization (if applicable), contact information, and preferred donation methods.
+Recipients: Information like name, household size, dietary restrictions, and proof of eligibility documents.
+Volunteers: Name, contact information, availability schedule, and skill sets.
+Administrators: Additional privileges for system configuration and user management.
+
+2. Donation Management
+Donor Registration and Profile: (Refer to User Accounts and Profiles)
+Donation Entry:
+A user-friendly interface for donors to enter donation details.
+Required fields:
