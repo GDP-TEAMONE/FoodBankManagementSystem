@@ -194,3 +194,9 @@ Generating reports shouldn't take an eternity - aim for completion within 10 min
 The system should handle a significant increase in users (20% more) without slowing down.
 This ensures a smooth and efficient user experience. Reports are generated quickly, providing valuable information when needed. The system can grow alongside your food bank's needs, preventing performance issues as user numbers rise.
 
+Availability and Data Integrity:
+
+Minimal Downtime: We aim for the system to be available at least 99.9% of the time, with planned maintenance periods for updates.
+Regular Backups: Automatic, daily backups of all data will be conducted, ensuring a safety net for at least 30 days in case of issues.
+Error Handling Like a Boss: The system will be equipped to gracefully handle unexpected errors, preventing data loss and minimizing service interruptions.
+These measures guarantee a reliable system that food banks and clients can depend on.  Your valuable data will be safeguarded against unforeseen circumstances, and robust error handling will prevent problems from snowballing.  In short, this system is built to be resilient and keep your food bank running smoothly.
