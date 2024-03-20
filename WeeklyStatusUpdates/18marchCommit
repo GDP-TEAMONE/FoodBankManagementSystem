@@ -182,3 +182,15 @@ Allergen Alerts:
 
 Implement an alert system to flag potential allergen concerns during food distribution based on recipient profiles.
 This helps ensure the safety and well-being of recipients with allergies
+
+Non-Functional requirments:-
+
+Performance:
+
+Speedy Actions, Timely Reports, Steady Growth:
+
+Users should experience near-instantaneous responses (within 3 seconds) for most interactions.
+Generating reports shouldn't take an eternity - aim for completion within 10 minutes.
+The system should handle a significant increase in users (20% more) without slowing down.
+This ensures a smooth and efficient user experience. Reports are generated quickly, providing valuable information when needed. The system can grow alongside your food bank's needs, preventing performance issues as user numbers rise.
+
