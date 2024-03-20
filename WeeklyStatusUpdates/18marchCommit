@@ -200,3 +200,11 @@ Minimal Downtime: We aim for the system to be available at least 99.9% of the ti
 Regular Backups: Automatic, daily backups of all data will be conducted, ensuring a safety net for at least 30 days in case of issues.
 Error Handling Like a Boss: The system will be equipped to gracefully handle unexpected errors, preventing data loss and minimizing service interruptions.
 These measures guarantee a reliable system that food banks and clients can depend on.  Your valuable data will be safeguarded against unforeseen circumstances, and robust error handling will prevent problems from snowballing.  In short, this system is built to be resilient and keep your food bank running smoothly.
+
+This section emphasizes the robust security measures in place to protect sensitive information:
+
+Locked Down Data: All sensitive details, like donor information and volunteer profiles, will be encrypted at rest (when stored) and in transit (when being sent). 
+This means even if someone intercepts the data, they won't be able to access it.
+Access with Permission Only: A role-based system ensures users only access data and features relevant to their role. No more peeking where you shouldn't!
+Regular Security Checks: We'll conduct regular security audits and penetration testing to proactively identify and address any potential weaknesses before they become a problem.
+These measures create a secure environment for managing sensitive data. You can trust that your information is protected, fostering compliance with data regulations and building trust with users.
