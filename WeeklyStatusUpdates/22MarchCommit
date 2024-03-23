@@ -46,19 +46,12 @@ Analytics:
 The system MAY incorporate analytics features to analyze volunteer engagement and effectiveness.
 Analytics MAY provide insights into volunteer demographics, preferences, and areas for improvement in volunteer management strategies.
 
+These requirements outline the functionalities and features necessary for effectively managing volunteers within the system. From registration and approval processes to profile management, volunteer entry, scheduling, feedback mechanisms, reporting, and analytics, the system aims to facilitate volunteer engagement and optimize volunteer management processes.
 
-
-
-
-
-
-
-
-
-
-
-
-
+Non-Functional Requirements:
+Security:
+User management functionalities MUST be secured to prevent unauthorized access.
+Access to approve donations and manage inventory MUST be restricted to authorized admins.
 
 Usability:
 User management interfaces SHOULD be intuitive and easy to use for admins.
