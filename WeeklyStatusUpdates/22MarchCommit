@@ -7,6 +7,15 @@ Approval Process:
 New volunteer registrations MUST be approved by the admin before volunteers can participate in activities.
 Admins SHALL review and verify volunteer registrations to ensure they meet the organization's requirements.
 
+Profile Management:
+Volunteers MUST have access to their profile, where they can update personal information, skills, and availability.
+Admins SHOULD have the ability to edit volunteer profiles for administrative purposes.
+
+Volunteer Entry:
+Volunteers MUST have the ability to log their participation in volunteer activities, including the type of activity, duration, and any relevant notes.
+The volunteer entry form SHOULD provide options for volunteers to select from predefined activities or specify custom activities.
+
+
 
 
 
