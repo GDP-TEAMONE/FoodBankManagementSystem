@@ -1,0 +1,8 @@
+Volunteer Management:
+Registration:
+Volunteers MUST register with the application by providing personal details, including name, contact information, and organization affiliation if applicable.
+The registration process SHOULD include fields for volunteers to specify their skills, availability, and areas of interest.
+
+Approval Process:
+New volunteer registrations MUST be approved by the admin before volunteers can participate in activities.
+Admins SHALL review and verify volunteer registrations to ensure they meet the organization's requirements.
