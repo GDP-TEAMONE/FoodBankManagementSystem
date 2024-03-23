@@ -47,3 +47,25 @@ The system MAY incorporate analytics features to analyze volunteer engagement an
 Analytics MAY provide insights into volunteer demographics, preferences, and areas for improvement in volunteer management strategies.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Usability:
+User management interfaces SHOULD be intuitive and easy to use for admins.
+Inventory management functionalities SHOULD provide clear and organized views of donated food items.
+Reliability:
+The system MUST reliably track the progress of delivery tasks and update their status accordingly.
+Real-time location tracking features MUST provide accurate and up-to-date information.
+
+
+
