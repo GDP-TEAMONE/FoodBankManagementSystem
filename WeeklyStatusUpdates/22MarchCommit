@@ -60,5 +60,12 @@ Reliability:
 The system MUST reliably track the progress of delivery tasks and update their status accordingly.
 Real-time location tracking features MUST provide accurate and up-to-date information.
 
+Performance:
+User management operations SHOULD be performed efficiently even with a large number of users.
+Inventory management functionalities MUST handle a high volume of donated items without performance degradation.
+
+Accessibility:
+User management interfaces SHOULD adhere to accessibility standards to accommodate users with disabilities.
+Real-time location tracking features SHOULD be accessible on various devices and platforms.
 
 
