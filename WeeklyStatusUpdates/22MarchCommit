@@ -15,29 +15,13 @@ Volunteer Entry:
 Volunteers MUST have the ability to log their participation in volunteer activities, including the type of activity, duration, and any relevant notes.
 The volunteer entry form SHOULD provide options for volunteers to select from predefined activities or specify custom activities.
 
+Schedule Management:
+Admins SHALL schedule volunteer activities based on volunteer availability and organizational needs.
+Volunteers SHOULD receive notifications about upcoming volunteer opportunities and assigned tasks.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Feedback Mechanism:
+The system MAY include a feedback mechanism for volunteers to provide feedback on their volunteer experiences.
+Admins MAY use feedback from volunteers to improve volunteer management processes and optimize volunteer engagement.
 
 Reporting:
 Admins MAY generate reports on volunteer participation, activity trends, and performance metrics.
