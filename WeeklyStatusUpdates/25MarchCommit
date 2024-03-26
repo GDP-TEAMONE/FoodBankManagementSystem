@@ -3,3 +3,11 @@ Here's a proposed list of prototypes to be provided by the end of the semester:
  User Registration and Profiles:
 1. User Accounts: Implement user accounts for food donors, recipients, volunteers, and administrators.
 2. User Profiles: Create user profiles containing personal and contact details.
+
+
+
+
+Inventory Management:
+1. **Centralized Database:** Develop a centralized database for tracking food inventory in real-time.
+2. **Categorization and Labeling:** Implement categorization and labeling of food items for efficient organization.
+3. **Alerts:** Set up alerts for low stock levels and upcoming expirations.
