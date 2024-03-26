@@ -4,24 +4,26 @@ Here's a proposed list of prototypes to be provided by the end of the semester:
 1. User Accounts: Implement user accounts for food donors, recipients, volunteers, and administrators.
 2. User Profiles: Create user profiles containing personal and contact details.
 
-
-
+Donation Management:
+1. Donor Registration: Allow donors to register and create profiles.
+2. Donation Entry: Enable the entry of donation details such as quantity, type, and expiration dates.
+3. Receipt Generation: Implement automatic generation of donation receipts.
 
 Inventory Management:
-1. **Centralized Database:** Develop a centralized database for tracking food inventory in real-time.
-2. **Categorization and Labeling:** Implement categorization and labeling of food items for efficient organization.
-3. **Alerts:** Set up alerts for low stock levels and upcoming expirations.
+1. Centralized Database: Develop a centralized database for tracking food inventory in real time.
+2. Categorization and Labeling: Implement categorization and labeling of food items for efficient organization.
+3. Alerts: Set up alerts for low stock levels and upcoming expirations.
 
 Recipient Registration and Eligibility:
-1. **Registration Process:** Provide a registration process for individuals or families seeking food assistance.
-2. **Eligibility Criteria:** Define criteria and verification processes for determining eligibility.
+1. Registration Process: Provide a registration process for individuals or families seeking food assistance.
+2. Eligibility Criteria: Define criteria and verification processes for determining eligibility.
 
-### Distribution Planning:
-1. **Planning Tools:** Develop tools for planning and scheduling food distribution events.
-2. **Optimization Features:** Implement optimization features for efficient distribution routes.
-3. **Integration with Mapping Services:** Integrate with mapping services for route planning.
+Distribution Planning:
+1. Planning Tools: Develop tools for planning and scheduling food distribution events.
+2. Optimization Features: Implement optimization features for efficient distribution routes.
+3. Integration with Mapping Services: Integrate with mapping services for route planning.
 
 
 Order Processing:
-1. **Order Creation:** Create and manage food distribution orders.
-2. **Prioritization:** Prioritize orders based on urgency or specific criteria.
+1. Order Creation: Create and manage food distribution orders.
+2. Prioritization: Prioritize orders based on urgency or specific criteria.
