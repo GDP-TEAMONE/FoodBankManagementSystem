@@ -48,15 +48,16 @@ Allergen and Nutritional Information:
 1. **Information Storage:** Implement capability to store and display allergen and nutritional information for food items.
 2. **Alerts:** Set up alerts for potential allergen concerns during distribution.
 
-
-
-
-
-
-
 Scalability:
-1. **System Scalability:** Ensure the system can handle increased data and user load as the food bank expands.
+1. System Scalability: Ensure the system can handle increased data and user load as the food bank expands.
 
 User-Friendly Interface:
-1. **Intuitive Interface:** Develop an intuitive and easy-to-use interface for all user types.
-2. **Training and Support:** Provide training materials and support for staff and volunteers.
+1. Intuitive Interface: Develop an intuitive and easy-to-use interface for all user types.
+2. Training and Support: Provide training materials and support for staff and volunteers.
+
+Tracking Expiry Dates:
+1. Expiration Monitoring: Develop a system to monitor and flag food items approaching or exceeding expiration dates.
+2. Automatic Removal: Implement automatic removal of expired items from inventory.
+
+By providing these prototypes, we aim to create a comprehensive and efficient Food Bank System that enhances the management of food donations, distributions, and volunteer efforts. This proposed list will be linked from the main page of the repository to serve as the agreement between the developer and the mentor regarding the expected prototypes to be developed by the end of the class.
+
