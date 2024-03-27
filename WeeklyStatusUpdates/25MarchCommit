@@ -40,6 +40,16 @@ Reporting and Analytics:
 1. Report Generation: Generate reports on donations, distributions, and inventory levels.
 2. Analytics Tools  : Develop analytics tools to identify trends, plan for future needs, and assess impact.
 
+
+
+
+Communication Module:
+1. Notification System: Implement a notification system for donors, volunteers, and recipients (e.g., email, SMS).
+2. Internal Communication: Develop internal communication tools for staff and volunteers.
+
+The notification system aims to implement a communication channel for donors, volunteers, and recipients through methods like email and SMS. 
+This system will facilitate timely updates and alerts related to food donations, distributions, and volunteer activities
+
 Integration with External Systems:
 1. **Financial Systems:** Ensure compatibility with financial systems for donation tracking and reporting.
 2. **Government Databases:** Integrate with government databases for eligibility verification.
