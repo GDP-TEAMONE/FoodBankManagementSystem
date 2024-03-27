@@ -40,8 +40,10 @@ Reporting and Analytics:
 1. Report Generation: Generate reports on donations, distributions, and inventory levels.
 2. Analytics Tools  : Develop analytics tools to identify trends, plan for future needs, and assess impact.
 
-
-
+Volunteer Management:
+1. Volunteer Registration: Allow volunteers to register and create profiles.
+2. Scheduling Tools: Provide scheduling tools for recruiting, assigning, and tracking volunteer activities.
+3. Volunteer Profiles:Create volunteer profiles with skills and availability.
 
 Communication Module:
 1. Notification System: Implement a notification system for donors, volunteers, and recipients (e.g., email, SMS).
