@@ -41,6 +41,13 @@ Live Tracking Map: Map view displaying real-time locations of volunteers and del
 - Ability to zoom in/out and view detailed information for each tracked entity.
 - Receive alerts for any deviations from planned routes or delays.
 
+Communication Tools:
+- Email or notification system for sending updates and thank-you messages to donors, volunteers, and users.
+
+Reporting Tools:
+- Generate reports on donor activity, types of donations, inventory levels, delivery statuses, and volunteer activities.
+- Customizable report parameters for different stakeholders.
+
 Settings:
 - Configuration options for admin preferences, email notifications, and system settings.
 - User roles and permissions management for different admin levels and staff members.
