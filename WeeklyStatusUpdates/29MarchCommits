@@ -30,6 +30,17 @@ Inventory Management Section:
 - Set alerts for low stock levels and upcoming expirations.
 - Search and filter functionality for inventory items.
 
+Delivery Assignment Section:
+Delivery Tasks: List of delivery tasks with details (volunteer assigned, delivery location, status).
+- Option to assign tasks to available volunteers.
+- Monitor task progress and mark tasks as completed.
+- Tools for reassigning tasks or updating delivery details.
+
+Location Tracking Section:
+Live Tracking Map: Map view displaying real-time locations of volunteers and delivery vehicles.
+- Ability to zoom in/out and view detailed information for each tracked entity.
+- Receive alerts for any deviations from planned routes or delays.
+
 Settings:
 - Configuration options for admin preferences, email notifications, and system settings.
 - User roles and permissions management for different admin levels and staff members.
