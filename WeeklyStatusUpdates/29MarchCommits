@@ -18,12 +18,17 @@ User Management Section:
 - Option to terminate user accounts if necessary.
 - Search and filter functionality for user accounts.
 
+Donation Approval Section:
+- **Pending Donations:** List of donations awaiting approval, with donor information and donation details.
+- Option to approve or reject donations.
+- Ability to view history of approved donations.
 
-
-
-
-
-
+Inventory Management Section:
+- **Inventory Overview:** Summary of available food items, categorized by type and quantity.
+- Detailed view of each item including name, category, quantity, expiration date.
+- Ability to add new items, update quantities, and remove items.
+- Set alerts for low stock levels and upcoming expirations.
+- Search and filter functionality for inventory items.
 
 Settings:
 - Configuration options for admin preferences, email notifications, and system settings.
