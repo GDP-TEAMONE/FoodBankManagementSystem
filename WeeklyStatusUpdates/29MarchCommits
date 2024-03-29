@@ -8,8 +8,15 @@
 - Delivery Assignment: Assign delivery tasks to volunteers.
 - Location Tracking: Real-time tracking of volunteers and delivery vehicles.
 
+Dashboard Section:
+- Summary of total users, pending registrations, approved donations, inventory status, ongoing deliveries, and active tracking sessions.
+- Graphical representations of key metrics for quick insights.
 
-
+User Management Section:
+- **User Accounts:** List of registered users with details (name, email, phone number, account type, status).
+- Ability to approve or reject pending registrations.
+- Option to terminate user accounts if necessary.
+- Search and filter functionality for user accounts.
 
 
 
