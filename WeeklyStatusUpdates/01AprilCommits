@@ -1,0 +1,7 @@
+Use Cases/User Stories for Food Bank System
+User Registration and Profiles:
+Goal: Users can create and manage their profiles within the system.
+Interactions:
+1. Input: User provides personal information (name, contact details).
+2. System Action: System creates a user account and generates a unique identifier.
+3. Output: User receives confirmation of successful registration.
