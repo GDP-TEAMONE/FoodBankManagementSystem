@@ -5,3 +5,12 @@ Interactions:
 1. Input: User provides personal information (name, contact details).
 2. System Action: System creates a user account and generates a unique identifier.
 3. Output: User receives confirmation of successful registration.
+
+
+Donation Management:
+Goal: Donors can contribute food items to the food bank.
+
+Interactions:
+1. Input: Donor enters details of the donation (quantity, type, expiration dates).
+2. System Action: System records the donation details and generates a donation receipt.
+3. Output: Donor receives confirmation of successful donation.
