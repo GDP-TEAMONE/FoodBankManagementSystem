@@ -39,6 +39,15 @@ Interactions:
 2. System Action: System generates distribution schedules and integrates with mapping services for route planning.
 3. Output: Staff receives distribution schedules and route plans.
 
+Order Processing:
+Goal: Manage and prioritize food distribution orders.
+
+Interactions:
+1. Input: Staff create and manage distribution orders based on urgency or criteria.
+2. System Action: System prioritizes orders and allocates resources accordingly.
+3. Output: Staff receives confirmation of order processing and allocation.
+
+
 
 
 
