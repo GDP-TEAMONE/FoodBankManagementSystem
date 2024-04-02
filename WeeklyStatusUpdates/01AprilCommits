@@ -15,7 +15,13 @@ Interactions:
 2. System Action: System records the donation details and generates a donation receipt.
 3. Output: Donor receives confirmation of successful donation.
 
+Inventory Management:
+Goal: Efficiently manage and track food inventory.
 
+Interactions:
+1. Input: Staff categorize and label food items for organization.
+2. System Action: System updates inventory in real-time and sends alerts for low stock or expiring items.
+3. Output: Staff receives notifications for inventory updates and alerts.
 
 Recipient Registration and Eligibility:
 Goal: Individuals or families seeking food assistance can register and verify their eligibility.
