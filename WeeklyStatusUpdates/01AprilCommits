@@ -30,3 +30,27 @@ Interactions:
 1. Input: Recipients provide personal information and undergo eligibility verification.
 2. System Action: System assesses eligibility criteria and verifies recipient status.
 3. Output: Recipients receive confirmation of registration and eligibility status.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Reporting and Analytics:
+Goal: Generate reports and analyze data for decision-making.
+
+Interactions:
+1. Input: Users request reports on donations, distributions, and inventory.
+2. System Action: System generates reports and provides analytical tools to identify trends and assess impact.
+3. Output: Users receive reports and analytical insights.
+
