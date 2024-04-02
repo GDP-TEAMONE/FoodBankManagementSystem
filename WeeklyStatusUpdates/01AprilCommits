@@ -14,3 +14,13 @@ Interactions:
 1. Input: Donor enters details of the donation (quantity, type, expiration dates).
 2. System Action: System records the donation details and generates a donation receipt.
 3. Output: Donor receives confirmation of successful donation.
+
+
+
+Recipient Registration and Eligibility:
+Goal: Individuals or families seeking food assistance can register and verify their eligibility.
+
+Interactions:
+1. Input: Recipients provide personal information and undergo eligibility verification.
+2. System Action: System assesses eligibility criteria and verifies recipient status.
+3. Output: Recipients receive confirmation of registration and eligibility status.
