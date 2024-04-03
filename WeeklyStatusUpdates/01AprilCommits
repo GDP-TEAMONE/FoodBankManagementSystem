@@ -87,13 +87,13 @@ Interactions:
 3. Output: Data remains secure, and the system complies with regulations.
 
 
+Scalability:
+Goal: System should handle increased data and user load.
 
-
-
-
-
-
-
+Interactions:
+1. Input: System experiences increased data and user load.
+2. System Action: System scales resources to accommodate increased demand.
+3. Output: System maintains performance and responsiveness.
 
 Backup and Recovery:
 Goal: Ensure data integrity and availability through backup and recovery mechanisms.
