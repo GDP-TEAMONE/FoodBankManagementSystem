@@ -77,3 +77,23 @@ Interactions:
 1. Input: Users access the system via mobile devices.
 2. System Action: System provides responsive design or mobile app for easy access and updates.
 3. Output: Users can interact with the system seamlessly on mobile devices.
+
+
+
+
+
+
+
+
+
+
+
+
+Backup and Recovery:
+Goal: Ensure data integrity and availability through backup and recovery mechanisms.
+
+Interactions:
+1. Input: System performs regular automated backups of the database.
+2. System Action: System implements procedures for data recovery in case of failures.
+3. Output: Data remains intact and accessible even in the event of system failures.
+
