@@ -47,21 +47,6 @@ Interactions:
 2. System Action: System prioritizes orders and allocates resources accordingly.
 3. Output: Staff receives confirmation of order processing and allocation.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Reporting and Analytics:
 Goal: Generate reports and analyze data for decision-making.
 
@@ -70,19 +55,13 @@ Interactions:
 2. System Action: System generates reports and provides analytical tools to identify trends and assess impact.
 3. Output: Users receive reports and analytical insights.
 
+Volunteer Management:
+Goal: Efficiently manage volunteer activities.
 
-
-
-
-
-
-
-
-
-
-
-
-
+Interactions:
+1. Input: Volunteers register, provide availability, and offer skills.
+2. System Action: System schedules and assigns volunteers based on availability and skills.
+3. Output: Volunteers receive notifications and assignments.
 Communication Module:
 Goal: Facilitate communication between stakeholders.
 
