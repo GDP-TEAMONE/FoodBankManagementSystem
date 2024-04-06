@@ -95,6 +95,14 @@ Interactions:
 2. System Action: System scales resources to accommodate increased demand.
 3. Output: System maintains performance and responsiveness.
 
+Allergen and Nutritional Information:
+Goal: Provide information about allergens and nutritional content of food items.
+
+Interactions:
+1. Input: System stores and displays allergen and nutritional information.
+2. System Action: System alerts users to potential allergen concerns during distribution.
+3. Output: Users receive information about allergens and nutritional content.
+
 Backup and Recovery:
 Goal: Ensure data integrity and availability through backup and recovery mechanisms.
 
