@@ -116,6 +116,14 @@ that align with your dietary needs.
 Nutritional Breakdown: View detailed information about the nutritional content of each food item. This includes calories, 
 fat, carbohydrates, protein, and other essential nutrients.
 
+Tracking Expiry Dates:
+Goal: Monitor and manage food items approaching or exceeding expiration dates.
+
+Interactions:
+1. Input: System tracks expiry dates of food items in inventory.
+2. System Action: System flags items approaching expiration and removes expired items automatically.
+3. Output: Staff receive notifications about expiring items and ensure inventory freshness.
+
 Recipe Suggestions:
 Goal: Provide recipe suggestions based on available food items.
 
