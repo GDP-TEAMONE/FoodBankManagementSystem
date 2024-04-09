@@ -33,7 +33,19 @@ class _DashBoardState extends State<DashBoard> {
     getData();
   }
 
+  void getData() async {
+    csss = [];
+    allUsers = [];
+    adminCount = 0;
+    foodDonorCount = 0;
+    recipientCount = 0;
+    volunteerCount = 0;
 
+    QuerySnapshot<Map<String, dynamic>> userSnapshot =
+    await FirebaseFirestore.instance.collection('Users').get();
+    List<Users> users = userSnapshot.docs.map((doc) {
+      return Users.fromJson(doc.data());
+    }).toList();
 
     List<bool> hasUnseenMessages = List.filled(users.length, false);
     QuerySnapshot<Map<String, dynamic>> messageSnapshot =
