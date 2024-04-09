@@ -115,6 +115,25 @@ class _DashBoardState extends State<DashBoard> {
 
 
 
+void filterUsers(String userType) {
+    setState(() {
+      if (userType == 'Admin') {
+        csss = allUsers.where((user) => user.type == 'Admin').toList();
+      } else if (userType == 'Food Donor') {
+        csss = allUsers.where((user) => user.type == 'Food Donor').toList();
+      } else if (userType == 'Recipient') {
+        csss = allUsers.where((user) => user.type == 'Recipient').toList();
+      } else if (userType == 'Volunteer') {
+        csss = allUsers.where((user) => user.type == 'Volunteer').toList();
+      } else if (userType == 'Status') {
+        csss = allUsers.where((user) => !user.sts).toList();
+      } else if (userType == 'Chat') {
+        csss = allUsers.where((user) => user.seen??false).toList();
+      } else {
+        csss = allUsers;
+      }
+    });
+  }
 
 
 void _addtochatuser(Users usr) {
