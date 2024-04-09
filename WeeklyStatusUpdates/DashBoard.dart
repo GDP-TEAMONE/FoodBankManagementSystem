@@ -11,6 +11,28 @@ import '../../route.dart';
 import '../Widgets/Appbar.dart';
 import '../Widgets/chat_box.dart';
 
+class DashBoard extends StatefulWidget {
+  @override
+  State<DashBoard> createState() => _DashBoardState();
+}
+
+class _DashBoardState extends State<DashBoard> {
+  List<Users> csss = [];
+  List<Users> allUsers = [];
+  int showAll = 0;
+  double chatwidth = 0;
+  List<Users> chatuser = [];
+  int totaluser = 0;
+  int adminCount = 0;
+  int foodDonorCount = 0;
+  int recipientCount = 0;
+  int volunteerCount = 0;
+  @override
+  void initState() {
+    super.initState();
+    getData();
+  }
+
 
 
 
