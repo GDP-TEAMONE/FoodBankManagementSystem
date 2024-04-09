@@ -35,7 +35,19 @@ class _DashBoardState extends State<DashBoard> {
 
 
 
-
+    List<bool> hasUnseenMessages = List.filled(users.length, false);
+    QuerySnapshot<Map<String, dynamic>> messageSnapshot =
+    await FirebaseFirestore.instance.collection('ChatsAdmin').get();
+    messageSnapshot.docs.forEach((doc) {
+      String? userId = doc['userId'];
+      bool? seen = doc['seen'];
+      if (userId != null && seen != null) {
+        int userIndex = users.indexWhere((user) => user.id == userId);
+        if (userIndex != -1 && !seen) {
+          hasUnseenMessages[userIndex] = true;
+        }
+      }
+    });
 
    List<Users> sortedUsers = [];
     for (int i = 0; i < users.length; i++) {
