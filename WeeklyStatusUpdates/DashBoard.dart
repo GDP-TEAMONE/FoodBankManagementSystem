@@ -185,6 +185,35 @@ Container(
 
 
 
+                                      const SizedBox(
+                                width: 20,
+                              ),
+                              InkWell(
+                                onTap: () {
+                                  filterUsers("Admin");
+                                },
+                                child: Container(
+                                  width: 200,
+                                  decoration: BoxDecoration(
+                                      boxShadow: [
+                                        BoxShadow(
+                                          color: ((Colors.grey[300])!),
+                                          blurRadius: 4,
+                                          offset:
+                                              Offset(4, 8), // Shadow position
+                                        ),
+                                      ],
+
+
+
+
+
+
+
+
+
+
+
 
 
 
