@@ -173,19 +173,44 @@ Container(
                                       const SizedBox(
                                         height: 20,
                                       ),
-
-
-
-
-
-
-
-
-
-
-
-
+                                      Image.asset(
+                                        "assets/icons/icon_up.png",
+                                        width: 20,
+                                      ),
+                                      Text(
+                                        "5.27%",
+                                        style: TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 14,
+                                            color: Colors.green),
+                                      ),
                                       const SizedBox(
+                                        height: 10,
+                                      ),
+                                      Text(
+                                        "Since Last Month",
+                                        style: TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 14,
+                                            color: Colors.black),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
+
+
+
+
+
+
+
+
+
+
+
+
+                                     const SizedBox(
                                 width: 20,
                               ),
                               InkWell(
