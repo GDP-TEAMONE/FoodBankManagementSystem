@@ -142,6 +142,37 @@ Container(
                                         ),
                                       ],
 
+                                      color: Colors.white,
+                                      borderRadius: BorderRadius.circular(5)),
+                                  //margin: EdgeInsets.all(10),
+                                  margin: EdgeInsets.only(
+                                      left: 0, top: 10, right: 10, bottom: 10),
+                                  padding: EdgeInsets.all(30),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      const Text(
+                                        "Users",
+                                        style: TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 16,
+                                            color: Colors.black),
+                                      ),
+                                      const SizedBox(
+                                        height: 15,
+                                      ),
+                                      Text(
+                                        "$totaluser",
+                                        style: const TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 24,
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.black),
+                                      ),
+                                      const SizedBox(
+                                        height: 20,
+                                      ),
 
 
 
