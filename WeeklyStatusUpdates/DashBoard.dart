@@ -81,6 +81,19 @@ class _DashBoardState extends State<DashBoard> {
       volunteerCount = users.where((user) => user.type == 'Volunteer').length;
     });
   }
+  Future<void> markMessagesAsSeen(String userId) async {
+    QuerySnapshot<Map<String, dynamic>> snapshot = await FirebaseFirestore
+        .instance
+        .collection('ChatsAdmin')
+        .where('userId', isEqualTo: userId)
+        .where('seen', isEqualTo: false)
+        .get();
+    WriteBatch batch = FirebaseFirestore.instance.batch();
+    snapshot.docs.forEach((doc) {
+      batch.update(doc.reference, {'seen': true});
+    });
+    await batch.commit();
+  }
 
 
 
