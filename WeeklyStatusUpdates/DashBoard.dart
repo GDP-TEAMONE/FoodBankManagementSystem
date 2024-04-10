@@ -95,7 +95,31 @@ class _DashBoardState extends State<DashBoard> {
     await batch.commit();
   }
 
-
+                Container(
+                  width: MediaQuery.of(context).size.width - 230,
+                  height: 1,
+                  color: Colors.black12,
+                ),
+                SizedBox(
+                  height: 25,
+                ),
+                Expanded(
+                  child: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        Container(
+                          alignment: Alignment.centerRight,
+                          margin: EdgeInsets.only(right: 45),
+                          child: const Text(
+                            "Dashboard",
+                            style: TextStyle(
+                              color: Colors.black87,
+                              fontWeight: FontWeight.bold,
+                              fontSize: 22,
+                              fontFamily: 'inter',
+                            ),
+                          ),
+                        ),
 
 
 
