@@ -95,6 +95,28 @@ class _DashBoardState extends State<DashBoard> {
     await batch.commit();
   }
 
+  @override
+  Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
+
+    return Scaffold(
+      body: Container(
+        decoration: const BoxDecoration(
+            image: DecorationImage(
+                image: AssetImage("assets/bg.png"), fit: BoxFit.fill)),
+        child: Stack(
+          children: [
+            Column(
+              mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.end,
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: [
+                Appbarr(),
+                Container(
+                  color: Colors.white,
+                  height: 10,
+                ),
+
                 Container(
                   width: MediaQuery.of(context).size.width - 230,
                   height: 1,
