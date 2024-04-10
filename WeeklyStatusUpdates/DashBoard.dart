@@ -121,6 +121,26 @@ class _DashBoardState extends State<DashBoard> {
                           ),
                         ),
 
+Container(
+                          margin: EdgeInsets.symmetric(horizontal: 45),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.end,
+                            children: [
+                              InkWell(
+                                onTap: () {
+                                  filterUsers("All");
+                                },
+                                child: Container(
+                                  width: 200,
+                                  decoration: BoxDecoration(
+                                      boxShadow: [
+                                        BoxShadow(
+                                          color: ((Colors.grey[300])!),
+                                          blurRadius: 4,
+                                          offset:
+                                              Offset(4, 8), // Shadow position
+                                        ),
+                                      ],
 
 
 
