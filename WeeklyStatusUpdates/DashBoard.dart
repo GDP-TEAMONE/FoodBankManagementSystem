@@ -369,6 +369,32 @@ const SizedBox(
                                   child: Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
+                                     children: [
+                                      Text(
+                                        "Recipients",
+                                        style: TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 16,
+                                            color: Colors.black),
+                                      ),
+                                      SizedBox(
+                                        height: 15,
+                                      ),
+                                      Text(
+                                        "${recipientCount}",
+                                        style: const TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 24,
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.black),
+                                      ),
+                                      SizedBox(
+                                        height: 20,
+                                      ),
+                                      Image.asset(
+                                        "assets/icons/icon_up.png",
+                                        width: 20,
+                                      ),
 
 
 
