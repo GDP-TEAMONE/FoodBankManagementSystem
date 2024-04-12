@@ -220,18 +220,6 @@ Container(
                                   ),
                                 ),
                               ),
-
-
-
-
-
-
-
-
-
-
-
-
                                      const SizedBox(
                                 width: 20,
                               ),
@@ -250,6 +238,41 @@ Container(
                                               Offset(4, 8), // Shadow position
                                         ),
                                       ],
+                                    olor: Colors.white,
+                                      borderRadius: BorderRadius.circular(5)),
+                                  //margin: EdgeInsets.all(10),
+                                  margin: EdgeInsets.only(
+                                      left: 0, top: 10, right: 10, bottom: 10),
+                                  padding: EdgeInsets.all(30),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        "Admin",
+                                        style: TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 16,
+                                            color: Colors.black),
+                                      ),
+                                      const SizedBox(
+                                        height: 15,
+                                      ),
+                                      Text(
+                                        "${adminCount}",
+                                        style: const TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 24,
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.black),
+                                      ),
+                                      const SizedBox(
+                                        height: 20,
+                                      ),
+                                      Image.asset(
+                                        "assets/icons/icon_up.png",
+                                        width: 20,
+                                      ),
 
 
 
