@@ -389,7 +389,28 @@ void _addtochatuser(Users usr) {
       chatuser.remove(usr);
     });
   }
-
+child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        "Food Donors",
+                                        style: TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 16,
+                                            color: Colors.black),
+                                      ),
+                                      SizedBox(
+                                        height: 15,
+                                      ),
+                                      Text(
+                                        "${foodDonorCount}",
+                                        style: const TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 24,
+                                            fontWeight: FontWeight.bold,
+                                            color: Colors.black),
+                                      ),
 
 
 
