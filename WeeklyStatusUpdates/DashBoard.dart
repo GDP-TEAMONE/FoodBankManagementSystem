@@ -316,6 +316,34 @@ const SizedBox(
                                       borderRadius: BorderRadius.circular(5)),
                                   margin: EdgeInsets.all(10),
                                   padding: EdgeInsets.all(30),
+                                   SizedBox(
+                                        height: 20,
+                                      ),
+                                      Image.asset(
+                                        "assets/icons/icon_down.png",
+                                        width: 20,
+                                      ),
+                                      Text(
+                                        "5.27%",
+                                        style: TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 14,
+                                            color: Colors.red),
+                                      ),
+                                      SizedBox(
+                                        height: 10,
+                                      ),
+                                      Text(
+                                        "Since Last Month",
+                                        style: TextStyle(
+                                            fontFamily: 'inter',
+                                            fontSize: 14,
+                                            color: Colors.black),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ),
 
 
 
