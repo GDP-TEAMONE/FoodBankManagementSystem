@@ -1,0 +1,28 @@
+# Problem Statement (Draft 2)
+
+## Food Waste: 
+Inaccurate stock tracking and lack of alerts for low stock or expiring items lead to wasted food, reducing the amount available for distribution. Inefficient food bank operations contribute to wasted resources. Inaccurate stock tracking leads to overlooking near-expiration food that could still be used. Additionally, the absence of alerts for low stock or expiring items hinders proactive efforts to distribute these resources before they spoil. This ultimately reduces the amount of good food available for those who need it most.
+
+## Inefficient Volunteer Management:
+Complex volunteer registration and scheduling processes discourage participation and make it difficult to match volunteers with suitable tasks. Food banks depend heavily on volunteers, but their current systems create roadblocks. Lengthy registration and scheduling processes discourage potential volunteers, hindering recruitment. Additionally, these systems often fail to match volunteer skills and interests with fitting tasks, leading to frustration and underutilized volunteer potential. This ultimately weakens the food bank's overall efficiency.
+
+## Error-Prone Donation Recording:
+Manual data entry for donations is time-consuming and prone to errors, leading to inaccurate records and difficulties generating receipts for donors. Food banks rely on donations to provide critical food assistance. However, the current system of manually entering donation details is a double-edged sword.  While it's time-consuming for staff, it's also error-prone.  Typos and mistakes in recording quantities, types, and expiry dates can lead to inaccurate records. This creates difficulties when generating receipts for donors, potentially causing frustration and a lack of trust.
+
+## Unprioritized Food Distribution: 
+Food distribution may not be targeted towards those with the greatest need, creating delays and inefficiencies. The current food distribution system at food banks might not be serving those who need it most.  Food distribution often follows a "first come, first served" approach, neglecting urgency or specific needs. This can lead to delays for individuals and families facing critical food insecurity.  Furthermore, prioritizing those who aren't in dire need can create inefficiencies in the distribution process, wasting valuable time and resources.
+
+## Limited Data Analysis:
+Lack of comprehensive reporting and analytics tools hinders the ability to identify trends, plan for future needs, and measure the overall impact of the food bank's operations. Food banks are often flying blind due to a lack of robust data analysis tools. Without comprehensive reporting and analytics, they struggle to identify trends in food donations, recipient needs, or volunteer engagement. This makes planning for future needs a guessing game. Additionally, measuring the overall impact of the food bank's operations becomes difficult, hindering their ability to demonstrate their effectiveness and secure continued support.
+
+## Food Bank Administrators:
+Inefficiencies create wasted resources, limit volunteer support, and make it difficult to demonstrate impact. Food bank administrators shoulder a heavy burden due to inefficiencies in the current system. These inefficiencies lead to a domino effect of negative consequences. Wasted resources, like expiring food due to poor stock tracking, directly impact the amount of food available for those in need. Additionally, complex volunteer management discourages participation, limiting the crucial support system for food banks. Ultimately, these issues make it difficult for administrators to demonstrate the food bank's true impact, hindering their ability to secure funding and support.
+
+## Donors:
+Manual donation recording processes can be inconvenient and discourage repeat donations. The current manual system for recording donations throws up roadblocks for well-meaning individuals who want to help.  Entering donation details like quantity, type, and expiry dates can be tedious and time-consuming. This inconvenience can discourage repeat donations, hindering the vital flow of food resources that food banks rely on.  A streamlined donation recording process would make donating a smoother experience, potentially encouraging more consistent support from generous donors.
+
+## Recipients:
+Delays in food distribution and lack of prioritization may limit access to essential food assistance. The current food bank system can leave those facing hunger in a frustrating situation. Delays in food distribution due to inefficiencies mean waiting longer for much-needed meals.  Perhaps even more concerning is the lack of prioritization.  Without a system that identifies those with the greatest need, essential food assistance might not reach those who are struggling the most. This can have a significant impact on the well-being of recipients who rely on food banks to put food on the table.
+
+## Volunteers:
+Complicated registration and scheduling processes discourage participation and hinder volunteer engagement. Many people want to volunteer at food banks but get discouraged by the current system.  Complex registration processes with lengthy forms and unclear instructions can be a major turnoff.  Even after signing up, scheduling can be another hurdle. Cumbersome systems often lack flexibility or fail to match volunteers' skills and interests with suitable tasks. This mismatch can lead to frustration and a feeling of not being able to contribute effectively, ultimately hindering volunteer engagement and the overall support system for food banks.
