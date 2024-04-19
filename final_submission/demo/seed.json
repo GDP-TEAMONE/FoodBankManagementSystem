@@ -1,0 +1,99 @@
+{
+  "User": {
+    "1": {
+      "Username": "johndoe",
+      "Password": "password123",
+      "Role": "Admin",
+      "Email": "johndoe@example.com"
+    },
+    "2": {
+      "Username": "janedoe",
+      "Password": "password123",
+      "Role": "Donor",
+      "Email": "janedoe@example.com"
+    },
+    "3": {
+      "Username": "bobjones",
+      "Password": "password123",
+      "Role": "Recipient",
+      "Email": "bobjones@example.com"
+    },
+    "4": {
+      "Username": "alice",
+      "Password": "password123",
+      "Role": "Volunteer",
+      "Email": "alice@example.com"
+    }
+  },
+  "Administrator": {
+    "1": {
+      "User_ID": 1
+    }
+  },
+  "Donor": {
+    "1": {
+      "User_ID": 2
+    }
+  },
+  "Recipient": {
+    "1": {
+      "User_ID": 3
+    }
+  },
+  "Volunteer": {
+    "1": {
+      "User_ID": 4
+    }
+  },
+  "Inventory": {
+    "1": {
+      "Donor_ID": 1,
+      "Item_name": "Canned Beans",
+      "Quantity": 50,
+      "Expiration_date": "2024-12-31",
+      "Allergen_Info": "None"
+    }
+  },
+  "Order": {
+    "1": {
+      "Order_date": "2024-04-01",
+      "Recipient_ID": 1
+    }
+  },
+  "Distribution": {
+    "1": {
+      "Distribution_date": "2024-04-02",
+      "Recipient_ID": 1,
+      "Donor_ID": 1
+    }
+  },
+  "Donation": {
+    "1": {
+      "Donor_ID": 1,
+      "Donation_date": "2024-03-31",
+      "Quantity": 20,
+      "Item_name": "Canned Beans",
+      "Expiration_date": "2024-12-31"
+    }
+  },
+  "Notification": {
+    "1": {
+      "Notification_date": "2024-04-01",
+      "Notification_type": "Order Confirmation",
+      "Notification_content": "Your order has been processed.",
+      "User_ID": 3
+    }
+  }
+}
+
+
+//Instructions to load into database
+//1. Access Firebase Console: Navigate to the Firebase Console and select your project.
+
+//2. Open Realtime Database: Go to "Database" in the left-side navigation and select "Realtime Database" to open your database.
+
+//Import JSON Data:
+
+//Click the three vertical dots (menu) at the top right of the database screen.
+//Select "Import JSON."
+//Choose the seed_data.json file you created and import it.
